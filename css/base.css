@@ -58,9 +58,6 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
-body {
-  overflow: hidden !important; }
-
 .wrapper {
   width: 90%;
   margin: 0 5%; }
