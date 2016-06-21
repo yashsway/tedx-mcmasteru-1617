@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 /*
 Custom Font Sets
 ----------------*/
@@ -83,7 +86,7 @@ body {
   font-family: "Aleo", serif; }
 
 body {
-  font-size: 16%;
+  font-size: 20%;
   text-decoration: none;
   overflow-x: hidden; }
 
@@ -258,7 +261,7 @@ table {
   margin: 0px auto;
   display: table; }
 
-.content > div {
+.content > * {
   display: table-cell; }
 
 /* ===============
@@ -375,7 +378,7 @@ table {
   bottom: 0;
   height: 100%;
   width: 100%;
-  overflow-x: scroll;
+  overflow: hidden;
   visibility: hidden; }
 
 .sponsors-footer {

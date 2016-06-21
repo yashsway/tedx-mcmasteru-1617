@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 /*
 Custom Font Sets
 ----------------*/
@@ -83,7 +86,7 @@ body {
   font-family: "Aleo", serif; }
 
 body {
-  font-size: 16%;
+  font-size: 20%;
   text-decoration: none;
   overflow-x: hidden; }
 
@@ -250,7 +253,7 @@ table {
   clear: both; }
 
 .clearfix {
-  *zoom: 1; }
+  zoom: 1; }
 
 /* Centering Hack
 --------------*/
@@ -258,7 +261,7 @@ table {
   margin: 0px auto;
   display: table; }
 
-.content > div {
+.content > * {
   display: table-cell; }
 
 /* ===============
