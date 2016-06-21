@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Checked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BASE-ELEMENTS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Buttons" transform="translate(-265.000000, -2.000000)">
+            <g id="Radio-Buttons" transform="translate(183.000000, 2.000000)">
+                <g id="`Icon-Buttons/Radio-Buttons/Checked" transform="translate(82.000000, 0.000000)">
+                    <path d="M28,0 C43.464,0 56,12.536 56,28 C56,43.464 43.463,56 28,56 C12.536,56 0,43.464 0,28 C0,12.536 12.535,0 28,0 L28,0 Z" id="outline" fill="#22C064"></path>
+                    <path d="M23.8135442,34.6925442 L42.507,16 L44.628,18.122 L24.122,38.628 L23.8139274,38.3199274 L23.506,38.628 L13,28.122 L15.121,26 L23.8135442,34.6925442 Z" id="icon" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

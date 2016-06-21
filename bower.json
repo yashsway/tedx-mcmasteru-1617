@@ -1,0 +1,32 @@
+{
+  "name": "TEDx McMaster U 2016/2017 Teaser",
+  "authors": [
+    "Yash Gopal <reach.yashg@gmail.com>"
+  ],
+  "description": "Teaser site with basic partnership and contact info for TEDx McMaster 2016/2017",
+  "main": "index.html",
+  "keywords": [
+    "tedx",
+    "ted",
+    "TED",
+    "TEDx",
+    "McMaster",
+    "Mac",
+    "MacU",
+    "McMasterU",
+    "hamilton",
+    "conference",
+    "technology",
+    "discussion"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
