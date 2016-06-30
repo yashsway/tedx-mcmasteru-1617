@@ -39,13 +39,13 @@ $(document).ready(function () {
                 transitionBackground.off('webkitAnimationEnd oanimationend msAnimationEnd animationend');
             });
             $(".landing-page").css("visibility","hidden");
-            $(".sponsors-page").css('visibility','visible');
+            $(".intro-page").css('visibility','visible');
             $("#reveal").css("visibility", "hidden");
         }, 600);
     });
 
     //closing transition splash
-    $('.sponsors-page').on('click', '.modal-close', function (event) {
+    $('.intro-page').on('click', '.modal-close', function (event) {
         event.preventDefault();
         $("#reveal").css("visibility", "visible");
 
@@ -57,7 +57,7 @@ $(document).ready(function () {
                 transitionBackground.off('webkitAnimationEnd oanimationend msAnimationEnd animationend');
             });
             $(".landing-page").css("visibility","visible");
-            $('.sponsors-page').css("visibility", "hidden");
+            $('.intro-page').css("visibility", "hidden");
             $("#reveal").css("opacity", "1");
         }, 600);
     });
