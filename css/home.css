@@ -368,7 +368,7 @@ table {
 .landing-page-box {
   height: inherit; }
 
-.sponsors-page {
+.intro-page {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -378,7 +378,7 @@ table {
   overflow-y: scroll;
   visibility: hidden; }
 
-.sponsors-footer {
+.intro-footer {
   color: #FFF2F1;
   position: relative;
   display: block;
@@ -386,7 +386,7 @@ table {
   height: 100px;
   background-color: #171519;
   box-shadow: 0px 3px 10px 5px #463F4C; }
-  .sponsors-footer p {
+  .intro-footer p {
     position: absolute;
     margin: 10px 0%;
     height: 30px;
