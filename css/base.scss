@@ -1,14 +1,16 @@
 //Colors
+$official-primary-color: #E62B1E;
 $primary-color: #E56B62;
 $primary-alt-1-color: #BF5952;
 $primary-alt-2-color: #FFF2F1;
+$official-secondary-color: #000000;
 $secondary-color: #312C35;
 $secondary-alt-1-color: #171519;
 $secondary-alt-2-color: #463F4C;
-$tertiary-color: #B958AC;
-$tertiary-alt-1-color: #502352;
-$tertiary-alt-2-color: #FEC9FC;
-$tertiary-alt-3-color: #D278C6;
+$tertiary-color: #FFD1CE;
+$tertiary-alt-1-color: #EAC9C7;
+$tertiary-alt-2-color: #C6A9A7;
+$tertiary-alt-3-color: #664C4C;
 //Box-sizing default
 * {
     box-sizing: border-box;
@@ -95,7 +97,7 @@ textarea {
 /* Default typography
 --------------------- */
 .primary-text-color {
-    color: $primary-color;
+    color: $official-primary-color;
 }
 .secondary-text-color {
     color: $primary-alt-2-color;
@@ -153,7 +155,7 @@ body {
 .sub-title {
     @extend .font-fix;
     @extend .primary-font;
-    color: $primary-alt-1-color;
+    color: $official-primary-color;
     font-size: 1.517em;
     line-height: 2px;
 }
@@ -183,7 +185,25 @@ body {
 /*
 Default button styles
 ---------------------*/
-
+.button {
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px 0px;
+    background-color: $secondary-alt-1-color;
+    color: $primary-alt-2-color;
+    letter-spacing: 2.1px;
+    line-height: 14px;
+    font-family: "Bariol", sans-serif;
+    font-size: 0.625em;
+    font-weight: 700;
+    font-smooth: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 /* Link clear defaults
 -------------------*/
 a:active {
@@ -194,23 +214,13 @@ a:visited {
 }
 /* Shared elements
 ------------------*/
-section {
-    display: block;
-}
 footer {
-    clear: both !important;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
+    background-color: $official-secondary-color;
+    color: white;
+    min-height: 150px;
 }
 .slate {
-    position: relative;
-    display: block;
-    height: auto;
-    width: 90%;
-    top: 20px;
-    left: 5%;
     background-color: $primary-alt-2-color;
     box-shadow: 0px 3px 5px 0px rgba(70,63,76,0.30);
     padding: 20px;
@@ -222,12 +232,13 @@ footer {
 }
 .profile {
     img {
-        margin-left: 22%;
-        height: 120px;
+        max-height: 120px;
+        width: auto;
+        margin: 0 auto;
     }
 }
 .icon {
-    height: 45px;
+    max-height: 50px;
     width: auto !important;
     pointer-events: none;
 }
@@ -235,12 +246,10 @@ footer {
     height: 25px;
     width: auto !important;
     pointer-events: fill;
-    &.checkmark:hover {
-        -moz-filter: hue-rorate(225deg);
-        filter: hue-rotate(225deg);
-    }
 }
 table {
+    width: auto;
+    height: auto;
     border-spacing: 5px;
     empty-cells: show;
     border: 3px dashed #cbcbcb;
@@ -261,6 +270,49 @@ table {
         padding: 20px;
     }
 }
+/* START OF MENU STUFF */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $tertiary-color;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: $tertiary-alt-2-color}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/* END OF MENU STUFF */
+
+/* Particle background */
+#particles-js {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
 /* Utilities
 --------------*/
 .center-text {

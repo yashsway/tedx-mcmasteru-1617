@@ -1,3 +1,4 @@
+//$(document).foundation();
 $(document).ready(function () {
     $("#typing").typed({
         strings: ["Discovery.", "Creativity.", "Optimism.", "TEDx McMaster U"],
@@ -7,7 +8,25 @@ $(document).ready(function () {
         backDelay: 1500,
         showCursor: true
     });
-    //file:///users/yash/Documents/Coding/Work/TedX/staticTeaser/assets/particles.json
+    //Main Menu functionality
+    //Trigger dropdown
+    $("#main-menu").on('click', function () {
+        $("#myDropdown").toggleClass("show");
+    });
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('#main-menu')) {
+            var dropdowns = $(".dropdown-content");
+            for (var i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+    //END of main menu
+    //file:///users/yash/Documents/Coding/Work/TedX/staticSite/assets/particles.json
     particlesJS.load('particles-js', 'assets/particles.json', function () {
         console.log('callback - particles.js config loaded');
     });
@@ -17,7 +36,7 @@ $(document).ready(function () {
     var frameProportion = 1.78, //png frame aspect ratio
         frames = 25, //number of png frames
         resize = false;
-    //set transitionBackground dimentions
+    //set transitionBackground dimensions
     setLayerDimensions();
     $(window).on('resize', function () {
         if (!resize) {
@@ -38,8 +57,9 @@ $(document).ready(function () {
                 transitionLayer.removeClass('closing opening visible');
                 transitionBackground.off('webkitAnimationEnd oanimationend msAnimationEnd animationend');
             });
-            $(".landing-page").css("visibility","hidden");
-            $(".intro-page").css('visibility','visible');
+            //window.location = "./about.html";
+            $(".landing-page").css("visibility", "hidden");
+            $(".intro-page").css('visibility', 'visible');
             $("#reveal").css("visibility", "hidden");
         }, 600);
     });
@@ -56,7 +76,7 @@ $(document).ready(function () {
                 transitionLayer.removeClass('closing opening visible');
                 transitionBackground.off('webkitAnimationEnd oanimationend msAnimationEnd animationend');
             });
-            $(".landing-page").css("visibility","visible");
+            $(".landing-page").css("visibility", "visible");
             $('.intro-page').css("visibility", "hidden");
             $("#reveal").css("opacity", "1");
         }, 600);

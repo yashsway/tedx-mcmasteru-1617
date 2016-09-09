@@ -1,7 +1,9 @@
 @import "base.scss";
+/* Shared elements */
 .piece {
     margin: 20px 0px;
 }
+/* Landing page */
 .landing-page{
     position: fixed;
     top: 0;
@@ -22,27 +24,10 @@
 .landing-caption {
     display: block;
 }
-.ted-button {
-    border: none;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    vertical-align: baseline;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px 0px;
-    letter-spacing: 2.1px;
-    line-height: 14px;
-    font-weight: 700;
-    font-smooth: 1em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 #reveal {
     position: relative;
     z-index: 5;
     padding: 10px 20px;
-    background-color: #1B1B1E;
-    color: #D8DBE2;
     font-family: "Bariol", sans-serif;
     font-size: 0.625em;
     -webkit-transition: visibility 0s 0.3s, opacity 1.2s ease-in-out 0s;
@@ -52,6 +37,51 @@
 .landing-page-box {
     height: inherit;
 }
+/* Blinking Cursor */
+.typed-cursor {
+    display: inline-block;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Intro Page */
 .intro-page {
     position: fixed;
     top: 0;
@@ -81,8 +111,15 @@
 }
 .profile {
     img {
+        -webkit-filter: hue-rotate(190deg);
+        -moz-filter: hue-rotate(190deg);
         filter: hue-rotate(190deg);
     }
+}
+.checkmark:hover {
+    -webkit-filter: hue-rotate(225deg);
+    -moz-filter: hue-rotate(225deg);
+    filter: hue-rotate(225deg);
 }
 /* Ink Splash */
 .modal-close {
@@ -216,59 +253,4 @@
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-}
-/* Particle JS */
-#particles-js {
-    position: absolute;
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-/* Blinking Cursor */
-.typed-cursor {
-    display: inline-block;
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
 }

@@ -1,21 +1,58 @@
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-@media only screen and (min-width: 320px) {
-  body {
-    font-size: 8px; } }
+/*@media only screen and (min-width: 320px) {
+    body {
+        font-size: 8px;
+    }
+}
 @media only screen and (min-width: 480px) {
-  body {
-    font-size: 12px; } }
+    body {
+        font-size: 12px;
+    }
+}
 @media only screen and (min-width: 533px) {
-  body {
-    font-size: 14px; } }
+    body {
+        font-size: 14px;
+    }
+}
 @media only screen and (min-width: 768px) {
-  body {
-    font-size: 14px; } }
+    body {
+        font-size: 14px;
+    }
+}
 @media only screen and (min-width: 850px) {
-  body {
-    font-size: 14px; } }
+    body {
+        font-size: 14px;
+    }
+}
 @media only screen and (min-width: 1140px) {
-  body {
-    font-size: 16px; } }
+    body {
+        font-size: 16px;
+    }
+}*/
+/* Small only */
+@media screen and (max-width: 48em) {
+  .benefit-piece table {
+    border-spacing: 2px; }
+    .benefit-piece table * {
+      font-size: 10px; }
+    .benefit-piece table td, .benefit-piece table th {
+      padding: 8px; }
+    .benefit-piece table img {
+      height: 15px;
+      padding: 0px; } }
+/* Medium and up */
+/* Medium only */
+@media screen and (min-width: 48em) and (max-width: 63.9375em) {
+  .budget-piece table {
+    border-spacing: 5px; }
+    .budget-piece table * {
+      font-size: 15px; }
+    .budget-piece table td, .budget-piece table th {
+      padding: 15px; }
+    .budget-piece table img {
+      max-height: 15px;
+      padding: 0px; } }
+/* Large and up */
+/* Large only */

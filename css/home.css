@@ -65,7 +65,7 @@ textarea {
 /* Default typography
 --------------------- */
 .primary-text-color {
-  color: #E56B62; }
+  color: #E62B1E; }
 
 .secondary-text-color {
   color: #FFF2F1; }
@@ -100,7 +100,7 @@ body {
   line-height: 20px; }
 
 .tertiary-title {
-  color: #B958AC;
+  color: #FFD1CE;
   font-size: 2.50em;
   line-height: 15px; }
 
@@ -110,7 +110,7 @@ body {
   line-height: 5px; }
 
 .sub-title {
-  color: #BF5952;
+  color: #E62B1E;
   font-size: 1.517em;
   line-height: 2px; }
 
@@ -133,6 +133,25 @@ body {
 /*
 Default button styles
 ---------------------*/
+.button {
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: baseline;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px 0px;
+  background-color: #171519;
+  color: #FFF2F1;
+  letter-spacing: 2.1px;
+  line-height: 14px;
+  font-family: "Bariol", sans-serif;
+  font-size: 0.625em;
+  font-weight: 700;
+  font-smooth: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 /* Link clear defaults
 -------------------*/
 a:active {
@@ -143,23 +162,13 @@ a:visited {
 
 /* Shared elements
 ------------------*/
-section {
-  display: block; }
-
 footer {
-  clear: both !important;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%; }
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  min-height: 150px; }
 
 .slate {
-  position: relative;
-  display: block;
-  height: auto;
-  width: 90%;
-  top: 20px;
-  left: 5%;
   background-color: #FFF2F1;
   box-shadow: 0px 3px 5px 0px rgba(70, 63, 76, 0.3);
   padding: 20px; }
@@ -170,11 +179,12 @@ footer {
   box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 0px 0px rgba(70, 63, 76, 0.5); }
 
 .profile img {
-  margin-left: 22%;
-  height: 120px; }
+  max-height: 120px;
+  width: auto;
+  margin: 0 auto; }
 
 .icon {
-  height: 45px;
+  max-height: 50px;
   width: auto !important;
   pointer-events: none; }
 
@@ -182,11 +192,10 @@ footer {
   height: 25px;
   width: auto !important;
   pointer-events: fill; }
-  .icon-small.checkmark:hover {
-    -moz-filter: hue-rorate(225deg);
-    filter: hue-rotate(225deg); }
 
 table {
+  width: auto;
+  height: auto;
   border-spacing: 5px;
   empty-cells: show;
   border: 3px dashed #cbcbcb; }
@@ -202,6 +211,47 @@ table {
     vertical-align: middle; }
   table td, table th {
     padding: 20px; }
+
+/* START OF MENU STUFF */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFD1CE;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #C6A9A7; }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block; }
+
+/* END OF MENU STUFF */
+/* Particle background */
+#particles-js {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
 
 /* Utilities
 --------------*/
@@ -316,9 +366,11 @@ table {
   h2,
   h3 {
     page-break-after: avoid; } }
+/* Shared elements */
 .piece {
   margin: 20px 0px; }
 
+/* Landing page */
 .landing-page {
   position: fixed;
   top: 0;
@@ -339,26 +391,10 @@ table {
 .landing-caption {
   display: block; }
 
-.ted-button {
-  border: none;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  vertical-align: baseline;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px 0px;
-  letter-spacing: 2.1px;
-  line-height: 14px;
-  font-weight: 700;
-  font-smooth: 1em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
 #reveal {
   position: relative;
   z-index: 5;
   padding: 10px 20px;
-  background-color: #1B1B1E;
-  color: #D8DBE2;
   font-family: "Bariol", sans-serif;
   font-size: 0.625em;
   -webkit-transition: visibility 0s 0.3s, opacity 1.2s ease-in-out 0s;
@@ -368,6 +404,36 @@ table {
 .landing-page-box {
   height: inherit; }
 
+/* Blinking Cursor */
+.typed-cursor {
+  display: inline-block;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+/* Intro Page */
 .intro-page {
   position: fixed;
   top: 0;
@@ -395,7 +461,14 @@ table {
     bottom: 0; }
 
 .profile img {
+  -webkit-filter: hue-rotate(190deg);
+  -moz-filter: hue-rotate(190deg);
   filter: hue-rotate(190deg); }
+
+.checkmark:hover {
+  -webkit-filter: hue-rotate(225deg);
+  -moz-filter: hue-rotate(225deg);
+  filter: hue-rotate(225deg); }
 
 /* Ink Splash */
 .modal-close {
@@ -509,44 +582,3 @@ table {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
-
-/* Particle JS */
-#particles-js {
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%; }
-
-/* Blinking Cursor */
-.typed-cursor {
-  display: inline-block;
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite; }
-
-@keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-moz-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
