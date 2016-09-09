@@ -42,7 +42,7 @@ html {
     max-width: 100% !important;
     color: #222;
     line-height: 1.4;
-    overflow-x: hidden !important;
+    //overflow-x: hidden !important;
 }
 
 ::-moz-selection {
@@ -134,14 +134,14 @@ body {
 .secondary-title {
     @extend .font-fix;
     @extend .primary-font;
-    color: $secondary-color;
+    color: $official-secondary-color;
     font-size: 3.374em;
     line-height: 20px;
 }
 .tertiary-title {
     @extend .font-fix;
     @extend .primary-font;
-    color: $tertiary-color;
+    color: $secondary-color;
     font-size: 2.50em;
     line-height: 15px;
 }
@@ -230,6 +230,9 @@ footer {
     background: #463F4C;
     box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 0px 0px rgba(70,63,76,0.50);
 }
+img {
+    padding: 10px;
+}
 .profile {
     img {
         max-height: 120px;
@@ -281,6 +284,7 @@ table {
 .dropdown-content {
     display: none;
     position: absolute;
+    z-index: 100;
     background-color: $tertiary-color;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -312,7 +316,15 @@ table {
     background-size: cover;
     background-position: 50% 50%;
 }
-
+.subway-divider {
+    padding: 10px 0px;
+    div {
+        height: 10px;
+        width: 100px;
+        background-color: $primary-color;
+        border-radius: 50px;
+    }
+}
 /* Utilities
 --------------*/
 .center-text {
