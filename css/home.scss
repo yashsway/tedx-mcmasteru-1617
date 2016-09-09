@@ -17,13 +17,13 @@
     text-align: center;
     word-wrap: break-word;
 }
-.landing-title-wrapper {
-    display: block;
-    height: auto;
-}
-.landing-caption {
-    display: block;
-}
+//.landing-title-wrapper {
+//    display: block;
+//    height: 200px;
+//}
+//.landing-caption {
+//    display: block;
+//}
 #reveal {
     position: relative;
     z-index: 5;
@@ -39,6 +39,7 @@
 }
 /* Blinking Cursor */
 .typed-cursor {
+    font-size: 50px;
     display: inline-block;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -91,6 +92,11 @@
     overflow-x: hidden;
     overflow-y: scroll;
     visibility: hidden;
+    .benefit-piece {
+        .checkmark {
+            height: 50px;
+        }
+    }
 }
 .intro-footer {
     color: $primary-alt-2-color;

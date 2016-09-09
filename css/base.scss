@@ -15,29 +15,30 @@ $tertiary-alt-3-color: #664C4C;
 * {
     box-sizing: border-box;
 }
+
+
 /*
 Custom Font Sets
 ----------------*/
+
 @font-face {
     font-family: "Bariol";
-    src: url(../assets/fonts/bariol_regular/bariol_regular_webfont.eot) format("eot"),
-         url(../assets/fonts/bariol_regular/bariol_regular_webfont.ttf) format("truetype"),
-         url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff) format("woff"),
-         url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff2) format("woff2"),
-        url(../assets/fonts/bariol_regular/bariol_regular_webfont.otf) format("opentype");
+    src: url(../assets/fonts/bariol_regular/bariol_regular_webfont.eot) format("eot"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.ttf) format("truetype"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff) format("woff"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff2) format("woff2"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.otf) format("opentype");
 }
+
 @font-face {
     font-family: "Aleo";
-    src: url(../assets/fonts/aleo_regular/aleo_regular_webfont.eot) format("eot"),
-         url(../assets/fonts/aleo_regular/aleo_regular_webfont.ttf) format("truetype"),
-         url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff) format("woff"),
-         url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff2) format("woff2");
+    src: url(../assets/fonts/aleo_regular/aleo_regular_webfont.eot) format("eot"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.ttf) format("truetype"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff) format("woff"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff2) format("woff2");
 }
+
 @font-face {
     font-family: "Erato";
     src: url(../assets/fonts/erato_light/erato_light.otf) format("opentype");
 }
+
+
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
 html {
     max-width: 100% !important;
     color: #222;
@@ -94,26 +95,35 @@ textarea {
     width: 90%;
     margin: 0 5%;
 }
+
+
 /* Default typography
 --------------------- */
+
 .primary-text-color {
     color: $official-primary-color;
 }
+
 .secondary-text-color {
     color: $primary-alt-2-color;
 }
+
 .tertiary-text-color {
     color: $secondary-color;
 }
+
 .primary-font {
-    font-family: "Bariol", sans-serif;
+    font-family: "Bariol", sans-serif; //Bariol
 }
+
 .secondary-font {
-    font-family: "Erato", serif;
+    font-family: "Helvetica Neue", serif; //Erato
 }
+
 .tertiary-font {
-    font-family: "Aleo", serif;
+    font-family: "Aleo", serif; //Aleo
 }
+
 body {
     @extend .tertiary-font;
     //This size affects all other sizes
@@ -121,9 +131,11 @@ body {
     text-decoration: none;
     overflow-x: hidden;
 }
+
 .font-fix {
     font-kerning: auto;
 }
+
 .primary-title {
     @extend .font-fix;
     @extend .primary-font;
@@ -131,6 +143,7 @@ body {
     font-size: 4.248em;
     line-height: 18px;
 }
+
 .secondary-title {
     @extend .font-fix;
     @extend .primary-font;
@@ -138,6 +151,7 @@ body {
     font-size: 3.374em;
     line-height: 20px;
 }
+
 .tertiary-title {
     @extend .font-fix;
     @extend .primary-font;
@@ -145,6 +159,7 @@ body {
     font-size: 2.50em;
     line-height: 15px;
 }
+
 .optional-title {
     @extend .font-fix;
     @extend .primary-font;
@@ -152,6 +167,7 @@ body {
     font-size: 1.938em;
     line-height: 5px;
 }
+
 .sub-title {
     @extend .font-fix;
     @extend .primary-font;
@@ -159,14 +175,16 @@ body {
     font-size: 1.517em;
     line-height: 2px;
 }
+
 .description-text {
-    @extend .primary-font;
+    @extend .tertiary-font;
     @extend .font-fix;
     color: $secondary-alt-2-color;
     font-size: 1em;
     letter-spacing: 0.4px;
     line-height: 25px;
 }
+
 .body-text {
     /* Motivation can take : */
     @extend .secondary-font;
@@ -176,22 +194,25 @@ body {
     letter-spacing: 0px;
     line-height: 22px;
 }
+
 .detail {
-   @extend .secondary-font;
-   @extend .font-fix;
-   $secondary-alt-2-color: #463F4C;
-   font-size: 0.7em;
+    @extend .secondary-font;
+    @extend .font-fix;
+    $secondary-alt-2-color: #463F4C;
+    font-size: 0.8em;
 }
+
+
 /*
 Default button styles
 ---------------------*/
+
 .button {
     border: none;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     vertical-align: baseline;
-    padding: 10px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px 0px;
     background-color: $secondary-alt-1-color;
     color: $primary-alt-2-color;
@@ -203,36 +224,114 @@ Default button styles
     font-smooth: 1em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    padding: 0px;
+    a {
+        padding: 10px 20px;
+    }
 }
+
+
 /* Link clear defaults
 -------------------*/
+
 a:active {
     outline: 0;
 }
+
 a:visited {
     outline: 0;
 }
+
+a {
+    color: inherit;
+    &:hover {
+        color: inherit;
+    }
+    &:active,
+    &:focus {
+        color: inherit;
+    }
+}
+
+
 /* Shared elements
 ------------------*/
+/* Header */
+.section-header {
+    padding: 10px 0px;
+}
+
+/* Page content */
+.section-content {
+    .slate {
+        opacity: 0.97;
+        overflow-y: auto;
+    }
+}
+/* Footer */
 footer {
     width: 100%;
     background-color: $official-secondary-color;
     color: white;
     min-height: 150px;
 }
+/* Footer */
+.section-footer {
+    padding-top: 20px;
+    color: white !important;
+    min-height: 200px;
+    background: url(../assets/footer.svg) no-repeat top left;
+    background-size: cover;
+    .detail {
+        padding: 0px 0px 10px 10px;
+    }
+    .logo {
+        max-height: 150px;
+        width: auto;
+        padding: 30px 0px 0px 0px;
+    }
+    .button {
+        margin: 0px 0px 10px 0px;
+        a {
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .contact {
+        .button {
+            margin: 0px 0px 15px 15px;
+        }
+    }
+    .social {
+        padding-left: 5px;
+        li {
+            display: inline;
+            list-style-type: none;
+            padding-right: 20px;
+        }
+        i {
+            font-size: 3em;
+        }
+    }
+}
+
 .slate {
     background-color: $primary-alt-2-color;
-    box-shadow: 0px 3px 5px 0px rgba(70,63,76,0.30);
+    box-shadow: 0px 3px 5px 0px rgba(70, 63, 76, 0.30);
     padding: 20px;
 }
+
 .card {
     color: $primary-alt-2-color;
     background: #463F4C;
-    box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 0px 0px rgba(70,63,76,0.50);
+    box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 0px 0px rgba(70, 63, 76, 0.50);
 }
+
 img {
     padding: 10px;
 }
+
 .profile {
     img {
         max-height: 120px;
@@ -240,16 +339,19 @@ img {
         margin: 0 auto;
     }
 }
+
 .icon {
     max-height: 50px;
     width: auto !important;
     pointer-events: none;
 }
+
 .icon-small {
     height: 25px;
     width: auto !important;
     pointer-events: fill;
 }
+
 table {
     width: auto;
     height: auto;
@@ -269,28 +371,42 @@ table {
         text-align: left;
         vertical-align: middle;
     }
-    td, th {
+    td,
+    th {
         padding: 20px;
     }
 }
+
+
 /* START OF MENU STUFF */
+
+
 /* The container <div> - needed to position the dropdown content */
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
+
 /* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
     z-index: 100;
     background-color: $tertiary-color;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
+
 /* Links inside the dropdown */
+
+#main-menu {
+    padding: 10px 20px;
+}
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -298,14 +414,26 @@ table {
     display: block;
 }
 
+
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: $tertiary-alt-2-color}
+
+.dropdown-content a:hover {
+    background-color: $tertiary-alt-2-color
+}
+
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+
+.show {
+    display: block;
+}
+
+
 /* END OF MENU STUFF */
 
+
 /* Particle background */
+
 #particles-js {
     position: absolute;
     z-index: 0;
@@ -316,6 +444,7 @@ table {
     background-size: cover;
     background-position: 50% 50%;
 }
+
 .subway-divider {
     padding: 10px 0px;
     div {
@@ -325,17 +454,23 @@ table {
         border-radius: 50px;
     }
 }
+
+
 /* Utilities
 --------------*/
+
 .center-text {
     text-align: center;
 }
+
 .zero-margin {
     margin: 0px;
 }
+
 .inherit-height {
     height: inherit;
 }
+
 .hidden {
     display: none !important;
     visibility: hidden;
@@ -379,22 +514,39 @@ table {
 .clearfix {
     zoom: 1;
 }
+
+
 /* Centering Hack
 --------------*/
+
 .content {
     margin: 0px auto;
     display: table;
 }
+
 //First descendant, any element
 .content > * {
     display: table-cell;
 }
+
+
 /* ===============
     ALL: IE Fixes
    =============== */
+
 .ie7 .title {
     padding-top: 20px;
 }
+
+
+/*
+FOUNDATION FIXES
+*/
+
+.row .row {
+    margin: 0;
+}
+
 /* ==========================================================================
    Print styles
    ========================================================================== */

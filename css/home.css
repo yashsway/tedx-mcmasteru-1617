@@ -72,13 +72,13 @@ textarea {
 .tertiary-text-color {
   color: #312C35; }
 
-.primary-font, .primary-title, .secondary-title, .tertiary-title, .optional-title, .sub-title, .description-text {
+.primary-font, .primary-title, .secondary-title, .tertiary-title, .optional-title, .sub-title {
   font-family: "Bariol", sans-serif; }
 
 .secondary-font, .body-text, .detail {
-  font-family: "Erato", serif; }
+  font-family: "Helvetica Neue", serif; }
 
-.tertiary-font, body {
+.tertiary-font, body, .description-text {
   font-family: "Aleo", serif; }
 
 body {
@@ -127,7 +127,7 @@ body {
   line-height: 22px; }
 
 .detail {
-  font-size: 0.7em; }
+  font-size: 0.8em; }
 
 /*
 Default button styles
@@ -138,7 +138,6 @@ Default button styles
   text-align: center;
   text-transform: uppercase;
   vertical-align: baseline;
-  padding: 10px 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px 0px;
   background-color: #171519;
   color: #FFF2F1;
@@ -149,7 +148,10 @@ Default button styles
   font-weight: 700;
   font-smooth: 1em;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0px; }
+  .button a {
+    padding: 10px 20px; }
 
 /* Link clear defaults
 -------------------*/
@@ -159,13 +161,60 @@ a:active {
 a:visited {
   outline: 0; }
 
+a {
+  color: inherit; }
+  a:hover {
+    color: inherit; }
+  a:active, a:focus {
+    color: inherit; }
+
 /* Shared elements
 ------------------*/
+/* Header */
+.section-header {
+  padding: 10px 0px; }
+
+/* Page content */
+.section-content .slate {
+  opacity: 0.97;
+  overflow-y: auto; }
+
+/* Footer */
 footer {
   width: 100%;
   background-color: #000000;
   color: white;
   min-height: 150px; }
+
+/* Footer */
+.section-footer {
+  padding-top: 20px;
+  color: white !important;
+  min-height: 200px;
+  background: url(../assets/footer.svg) no-repeat top left;
+  background-size: cover; }
+  .section-footer .detail {
+    padding: 0px 0px 10px 10px; }
+  .section-footer .logo {
+    max-height: 150px;
+    width: auto;
+    padding: 30px 0px 0px 0px; }
+  .section-footer .button {
+    margin: 0px 0px 10px 0px; }
+    .section-footer .button a {
+      display: inline-block;
+      height: 100%;
+      width: 100%; }
+  .section-footer .contact .button {
+    margin: 0px 0px 15px 15px; }
+  .section-footer .social {
+    padding-left: 5px; }
+    .section-footer .social li {
+      display: inline;
+      list-style-type: none;
+      padding-right: 20px; }
+    .section-footer .social i {
+      font-size: 3em; }
 
 .slate {
   background-color: #FFF2F1;
@@ -211,7 +260,8 @@ table {
     background-color: #e0e0e0;
     text-align: left;
     vertical-align: middle; }
-  table td, table th {
+  table td,
+  table th {
     padding: 20px; }
 
 /* START OF MENU STUFF */
@@ -230,6 +280,9 @@ table {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
 
 /* Links inside the dropdown */
+#main-menu {
+  padding: 10px 20px; }
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -327,6 +380,12 @@ table {
 .ie7 .title {
   padding-top: 20px; }
 
+/*
+FOUNDATION FIXES
+*/
+.row .row {
+  margin: 0; }
+
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -395,13 +454,6 @@ table {
   text-align: center;
   word-wrap: break-word; }
 
-.landing-title-wrapper {
-  display: block;
-  height: auto; }
-
-.landing-caption {
-  display: block; }
-
 #reveal {
   position: relative;
   z-index: 5;
@@ -417,6 +469,7 @@ table {
 
 /* Blinking Cursor */
 .typed-cursor {
+  font-size: 50px;
   display: inline-block;
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
@@ -454,6 +507,8 @@ table {
   overflow-x: hidden;
   overflow-y: scroll;
   visibility: hidden; }
+  .intro-page .benefit-piece .checkmark {
+    height: 50px; }
 
 .intro-footer {
   color: #FFF2F1;

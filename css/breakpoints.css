@@ -41,7 +41,14 @@
       padding: 8px; }
     .benefit-piece table img {
       height: 15px;
-      padding: 0px; } }
+      padding: 0px; }
+
+  .section-footer .logo {
+    height: 110px; }
+  .section-footer .detail {
+    text-align: center; }
+  .section-footer .social li {
+    padding: 0px; } }
 /* Medium and up */
 /* Medium only */
 @media screen and (min-width: 48em) and (max-width: 63.9375em) {
