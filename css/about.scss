@@ -1,0 +1,26 @@
+@import "base.scss";
+body {
+    background: url(../assets/about.svg) no-repeat top left;
+    background-size: cover;
+}
+#about-page {
+    .header {
+        .icon {
+            font-size: 50px;
+            color: $primary-color;
+        }
+    }
+    h1 {
+        padding: 0px 20px 10px 20px;
+        line-height: 35px;
+    }
+    h2 {
+        height: auto;
+        line-height: 50px;
+        padding: 20px 0px 0px 30px;
+    }
+    .description {
+        padding: 0px 30px;
+        text-align: justify;
+    }
+}

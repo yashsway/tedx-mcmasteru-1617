@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<g id="Layer_1" display="none">
+	<rect display="inline" fill="#CDCCCC" width="612" height="792"/>
+	<rect y="740" display="inline" fill="#ABABAB" width="612" height="52"/>
+</g>
+<g id="Layer_4" display="none">
+	<polyline display="inline" fill="#C4C7CC" points="86.5,276.9 86.5,179 378,179 378,345 130.6,345 	"/>
+	<rect x="9" y="179" display="inline" fill="#C4C7CC" width="98" height="32"/>
+	<rect x="9" y="-9" display="inline" fill="#C4C7CC" width="32" height="192"/>
+	<rect x="330" y="286" display="inline" fill="#C4C7CC" width="32" height="192"/>
+	<rect x="97.6" y="477" display="inline" fill="#C4C7CC" width="297.4" height="206"/>
+	<polyline display="inline" fill="#C4C7CC" points="363,496 363,477 320,477 320,537 335,537 	"/>
+	<rect x="320" y="634" display="inline" fill="#C4C7CC" width="290" height="32"/>
+</g>
+<g id="Layer_2">
+	<g>
+		<path fill="none" stroke="#C16F70" stroke-width="10" stroke-miterlimit="10" d="M97.6-34.5V23c0,5.5-2,14.1-4.3,19L57,117.3
+			c-2.4,5-4.3,13.5-4.3,19V807"/>
+	</g>
+	<g>
+		<path fill="none" stroke="#7F1D22" stroke-width="10" stroke-miterlimit="10" d="M366-65L468.2,52.5c3.6,4.1,11.1,7.5,16.6,7.5
+			L625,60"/>
+	</g>
+	<g>
+		<path fill="none" stroke="#C16F70" stroke-width="10" stroke-miterlimit="10" d="M109-31.1v57.5c0,5.5-2,14.1-4.3,19l-36.3,75.3
+			c-2.4,5-4.3,13.5-4.3,19v670.7"/>
+	</g>
+	<line fill="none" stroke="#C23F46" stroke-width="10" stroke-miterlimit="10" x1="-27" y1="48" x2="628" y2="48"/>
+</g>
+<g id="Layer_3">
+	<circle fill="#FFFFFF" stroke="#C16F70" stroke-width="6" stroke-miterlimit="10" cx="64" cy="134" r="8"/>
+	<circle fill="#FFFFFF" stroke="#C16F70" stroke-width="6" stroke-miterlimit="10" cx="64" cy="396" r="8"/>
+	<circle fill="#FFFFFF" stroke="#C16F70" stroke-width="6" stroke-miterlimit="10" cx="63" cy="702" r="8"/>
+	<circle fill="#FFFFFF" stroke="#7F1C22" stroke-width="6" stroke-miterlimit="10" cx="525" cy="60" r="8"/>
+</g>
+<g id="Layer_6" display="none">
+	<polyline display="inline" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="525,64.4 525,88.6 
+		418,88.6 418,113.5 	"/>
+	
+		<rect x="397" y="113.5" display="inline" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="199" height="229"/>
+	<circle display="inline" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="525" cy="60" r="4.3"/>
+	<circle display="inline" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="63" cy="702" r="4.3"/>
+	<polyline display="inline" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="67.4,702 556,702 
+		556,615 	"/>
+	
+		<rect x="409" y="441.7" display="inline" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="187" height="173.3"/>
+</g>
+<g id="Layer_5" display="none">
+	<rect x="85" y="113.5" display="inline" fill="none" width="436" height="44.5"/>
+	<text transform="matrix(1 0 0 1 85 151.4473)" display="inline" fill="#010101" font-family="'Arial-BoldMT'" font-size="53">about TEDx</text>
+	<rect x="91" y="378.8" display="inline" fill="none" width="436" height="96.3"/>
+	<text transform="matrix(1 0 0 1 91 416.6973)" display="inline"><tspan x="0" y="0" fill="#010101" font-family="'Arial-BoldMT'" font-size="53">who</tspan><tspan x="0" y="51" fill="#010101" font-family="'Arial-BoldMT'" font-size="53">we are</tspan></text>
+</g>
+</svg>
