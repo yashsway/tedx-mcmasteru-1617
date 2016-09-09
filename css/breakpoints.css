@@ -39,10 +39,15 @@
       font-size: 10px; }
     .benefit-piece table td, .benefit-piece table th {
       padding: 8px; }
-    .benefit-piece table img {
+    .benefit-piece table .checkmark {
       height: 15px;
       padding: 0px; }
 
+  .section-footer .content, .section-footer .contact {
+    margin: 0px auto;
+    display: table; }
+  .section-footer .content > *, .section-footer .contact > * {
+    display: table-cell; }
   .section-footer .logo {
     height: 110px; }
   .section-footer .detail {

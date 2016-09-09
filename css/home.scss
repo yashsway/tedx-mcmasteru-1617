@@ -1,4 +1,8 @@
 @import "base.scss";
+body {
+    background: url(../assets/theme.svg) no-repeat top left;
+    background-size: cover;
+}
 /* Shared elements */
 .piece {
     margin: 20px 0px;
@@ -17,13 +21,6 @@
     text-align: center;
     word-wrap: break-word;
 }
-//.landing-title-wrapper {
-//    display: block;
-//    height: 200px;
-//}
-//.landing-caption {
-//    display: block;
-//}
 #reveal {
     position: relative;
     z-index: 5;
@@ -92,11 +89,6 @@
     overflow-x: hidden;
     overflow-y: scroll;
     visibility: hidden;
-    .benefit-piece {
-        .checkmark {
-            height: 50px;
-        }
-    }
 }
 .intro-footer {
     color: $primary-alt-2-color;
@@ -122,11 +114,30 @@
         filter: hue-rotate(190deg);
     }
 }
+.checkmark {
+    height: 50px;
+}
 .checkmark:hover {
     -webkit-filter: hue-rotate(225deg);
     -moz-filter: hue-rotate(225deg);
     filter: hue-rotate(225deg);
 }
+.piece {
+    h1, h2 {
+        padding: 5px;
+    }
+    .sub-title {
+        padding-bottom: 30px;
+    }
+}
+//.benefit-piece {
+//    tbody {
+//        background-color: transparent;
+//    }
+//    table tbody tr:nth-child(even) {
+//        background-color: transparent;
+//    }
+//}
 /* Ink Splash */
 .modal-close {
   cursor: pointer;
@@ -137,7 +148,7 @@
   height: 45px;
   width: 45px;
   border-radius: 50%;
-  background: $secondary-alt-1-color url(../img/cd-icon-close.svg) no-repeat center center;
+  background: $secondary-alt-1-color url(../assets/icons/cd-icon-close.svg) no-repeat center center;
   /* image replacement */
   overflow: hidden;
   text-indent: 100%;
@@ -169,7 +180,7 @@
     height: 100%;
     /* 25 frame sprite */
     width: 2500%;
-    background: url(../img/ink.png) no-repeat 0 0;
+    background: url(../assets/ink.png) no-repeat 0 0;
     background-size: 100% 100%;
 }
 @-webkit-keyframes cd-sequence {

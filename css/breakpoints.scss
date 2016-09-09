@@ -41,12 +41,26 @@
         td, th {
             padding: 8px;
         }
-        img {
+        .checkmark {
             height: 15px;
             padding: 0px;
         }
     }
     .section-footer {
+        //SASS needs class to be in same directive.
+        .content {
+            margin: 0px auto;
+            display: table;
+        }
+
+        //First descendant, any element
+        .content > * {
+            display: table-cell;
+        }
+        //End of content fill
+        .contact {
+            @extend .content;
+        }
         .logo {
             height: 110px;
         }

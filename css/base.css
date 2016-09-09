@@ -91,27 +91,27 @@ body {
 .primary-title {
   color: #E56B62;
   font-size: 4.248em;
-  line-height: 18px; }
+  line-height: 50px; }
 
 .secondary-title {
   color: #000000;
   font-size: 3.374em;
-  line-height: 20px; }
+  line-height: 40px; }
 
 .tertiary-title {
   color: #312C35;
   font-size: 2.50em;
-  line-height: 15px; }
+  line-height: 30px; }
 
 .optional-title {
   color: #463F4C;
   font-size: 1.938em;
-  line-height: 5px; }
+  line-height: 25px; }
 
 .sub-title {
   color: #E62B1E;
   font-size: 1.517em;
-  line-height: 2px; }
+  line-height: 20px; }
 
 .description-text {
   color: #463F4C;
@@ -188,6 +188,8 @@ footer {
 
 /* Footer */
 .section-footer {
+  z-index: -3;
+  width: 100%;
   padding-top: 20px;
   color: white !important;
   min-height: 200px;
@@ -230,12 +232,12 @@ img {
   padding: 10px; }
 
 .profile img {
-  max-height: 120px;
+  max-height: 200px;
   width: auto;
   margin: 0 auto; }
 
 .icon {
-  max-height: 50px;
+  height: 100px;
   width: auto !important;
   pointer-events: none; }
 
