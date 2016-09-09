@@ -138,12 +138,14 @@ body {
 //        background-color: transparent;
 //    }
 //}
+.wrap {
+    position: absolute;
+}
 /* Ink Splash */
 .modal-close {
   cursor: pointer;
-  position: absolute;
-  z-index: 5;
-  top: 15px;
+  position: relative;
+  top: 0px;
   right: 2%;
   height: 45px;
   width: 45px;
