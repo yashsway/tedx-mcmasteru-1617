@@ -3,3 +3,30 @@ body {
     background: url(../assets/benefits.svg) no-repeat top left;
     background-size: cover;
 }
+
+.sponsor-page {
+    .header {
+        .icon {
+            font-size: 50px;
+            color: $primary-color;
+        }
+    }
+    .benefit-piece {
+        .checkmark {
+            height: 50px;
+        }
+        .checkmark:hover {
+            -webkit-filter: hue-rotate(225deg);
+            -moz-filter: hue-rotate(225deg);
+            filter: hue-rotate(225deg);
+        }
+    }
+    .partner-piece {
+        img {
+            height: 150px;
+        }
+        .card {
+            background-color: white;
+        }
+    }
+}

@@ -3,10 +3,6 @@ body {
     background: url(../assets/theme.svg) no-repeat top left;
     background-size: cover;
 }
-/* Shared elements */
-.piece {
-    margin: 20px 0px;
-}
 /* Landing page */
 .landing-page{
     position: fixed;
@@ -121,14 +117,6 @@ body {
     -webkit-filter: hue-rotate(225deg);
     -moz-filter: hue-rotate(225deg);
     filter: hue-rotate(225deg);
-}
-.piece {
-    h1, h2 {
-        padding: 5px;
-    }
-    .sub-title {
-        padding-bottom: 30px;
-    }
 }
 //.benefit-piece {
 //    tbody {

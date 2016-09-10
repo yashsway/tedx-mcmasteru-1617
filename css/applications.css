@@ -226,7 +226,18 @@ footer {
 .card {
   color: #FFF2F1;
   background: #463F4C;
-  box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 0px 0px rgba(70, 63, 76, 0.5); }
+  box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 5px 0px rgba(70, 63, 76, 0.5); }
+
+.piece {
+  margin: 20px 0px; }
+  .piece h1, .piece h2 {
+    padding: 5px; }
+  .piece .sub-title {
+    padding-bottom: 30px; }
+
+.box {
+  margin: 10px;
+  padding: 20px; }
 
 img {
   padding: 10px; }
@@ -442,6 +453,6 @@ body {
   background: url(../assets/partner.svg) no-repeat top left;
   background-size: cover; }
 
-#applications-page .header .icon {
+.applications-page .header .icon {
   font-size: 50px;
   color: #E56B62; }

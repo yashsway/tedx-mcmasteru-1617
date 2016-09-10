@@ -327,9 +327,21 @@ footer {
 .card {
     color: $primary-alt-2-color;
     background: #463F4C;
-    box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 0px 0px rgba(70, 63, 76, 0.50);
+    box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 5px 0px rgba(70, 63, 76, 0.50);
 }
-
+.piece {
+    margin: 20px 0px;
+    h1, h2 {
+        padding: 5px;
+    }
+    .sub-title {
+        padding-bottom: 30px;
+    }
+}
+.box {
+    margin: 10px;
+    padding: 20px;
+}
 img {
     padding: 10px;
 }

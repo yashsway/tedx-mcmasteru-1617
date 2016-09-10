@@ -226,7 +226,18 @@ footer {
 .card {
   color: #FFF2F1;
   background: #463F4C;
-  box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 0px 0px rgba(70, 63, 76, 0.5); }
+  box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 5px 0px rgba(70, 63, 76, 0.5); }
+
+.piece {
+  margin: 20px 0px; }
+  .piece h1, .piece h2 {
+    padding: 5px; }
+  .piece .sub-title {
+    padding-bottom: 30px; }
+
+.box {
+  margin: 10px;
+  padding: 20px; }
 
 img {
   padding: 10px; }
@@ -441,3 +452,17 @@ FOUNDATION FIXES
 body {
   background: url(../assets/benefits.svg) no-repeat top left;
   background-size: cover; }
+
+.sponsor-page .header .icon {
+  font-size: 50px;
+  color: #E56B62; }
+.sponsor-page .benefit-piece .checkmark {
+  height: 50px; }
+.sponsor-page .benefit-piece .checkmark:hover {
+  -webkit-filter: hue-rotate(225deg);
+  -moz-filter: hue-rotate(225deg);
+  filter: hue-rotate(225deg); }
+.sponsor-page .partner-piece img {
+  height: 150px; }
+.sponsor-page .partner-piece .card {
+  background-color: white; }
