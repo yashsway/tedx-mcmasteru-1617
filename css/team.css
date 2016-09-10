@@ -453,11 +453,16 @@ body {
   background: url(../assets/contact.svg) no-repeat top left;
   background-size: cover; }
 
+.columns {
+  margin-top: +15px; }
+
 .team-page .header .icon {
   font-size: 50px;
   color: #E56B62; }
 .team-page #curator {
   padding: 30px; }
+.team-page .card {
+  background-color: white; }
 
 .profile p {
   margin: 0px;

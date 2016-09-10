@@ -3,6 +3,9 @@ body {
     background: url(../assets/contact.svg) no-repeat top left;
     background-size: cover;
 }
+.columns {
+    margin-top: +15px;
+}
 .team-page {
     .header {
         .icon {
@@ -12,6 +15,9 @@ body {
     }
     #curator {
         padding: 30px;
+    }
+    .card {
+        background-color: white;
     }
 }
 .profile {
