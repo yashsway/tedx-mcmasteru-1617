@@ -3,8 +3,11 @@ body {
     background: url(../assets/theme.svg) no-repeat top left;
     background-size: cover;
 }
+
+
 /* Landing page */
-.landing-page{
+
+.landing-page {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -12,11 +15,13 @@ body {
     width: 100%;
     overflow: hidden;
 }
+
 .landing-title {
     display: inline-block;
     text-align: center;
     word-wrap: break-word;
 }
+
 #reveal {
     position: relative;
     z-index: 5;
@@ -27,10 +32,14 @@ body {
     -moz-transition: visibility 0s 0.3s, opacity 1.2s ease-in-out 0s;
     transition: visibility 0s 0.3s, opacity 1.2s ease-in-out 0s;
 }
+
 .landing-page-box {
     height: inherit;
 }
+
+
 /* Blinking Cursor */
+
 .typed-cursor {
     font-size: 50px;
     display: inline-block;
@@ -75,7 +84,10 @@ body {
         opacity: 1;
     }
 }
+
+
 /* Intro Page */
+
 .intro-page {
     position: fixed;
     top: 0;
@@ -86,6 +98,7 @@ body {
     overflow-y: scroll;
     visibility: hidden;
 }
+
 .intro-footer {
     color: $primary-alt-2-color;
     position: relative;
@@ -103,6 +116,7 @@ body {
         bottom: 0;
     }
 }
+
 .profile {
     img {
         -webkit-filter: hue-rotate(190deg);
@@ -110,14 +124,17 @@ body {
         filter: hue-rotate(190deg);
     }
 }
+
 .checkmark {
     height: 50px;
 }
+
 .checkmark:hover {
     -webkit-filter: hue-rotate(225deg);
     -moz-filter: hue-rotate(225deg);
     filter: hue-rotate(225deg);
 }
+
 //.benefit-piece {
 //    tbody {
 //        background-color: transparent;
@@ -129,28 +146,34 @@ body {
 .wrap {
     position: absolute;
 }
-/* Ink Splash */
-.modal-close {
-  cursor: pointer;
-  position: relative;
-  top: 0px;
-  right: 2%;
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  background: $secondary-alt-1-color url(../assets/icons/cd-icon-close.svg) no-repeat center center;
-  /* image replacement */
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  -webkit-transition: -webkit-transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
-  -moz-transition: -moz-transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
-  transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+.turntable {
+
 }
+/* Ink Splash */
+
+.modal-close {
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    right: 2%;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: $secondary-alt-1-color url(../assets/icons/cd-icon-close.svg) no-repeat center center;
+    /* image replacement */
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    -webkit-transition: -webkit-transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+    -moz-transition: -moz-transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+    transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+}
+
 .modal-close:hover {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
+
 .transition-layer {
     position: fixed;
     top: 0;
@@ -162,6 +185,7 @@ body {
     visibility: hidden;
     overflow: hidden;
 }
+
 .transition-layer .bg-layer {
     position: absolute;
     left: 50%;
@@ -173,75 +197,81 @@ body {
     background: url(../assets/ink.png) no-repeat 0 0;
     background-size: 100% 100%;
 }
+
 @-webkit-keyframes cd-sequence {
-  0% {
-    /* translateX(-2%) is used to horizontally center the first frame inside the viewport */
-    -webkit-transform: translateY(-50%) translateX(-2%);
-  }
-  100% {
-    /* translateX(-98%) (2% + 96) is used to horizontally center the last frame inside the viewport  */
-    -webkit-transform: translateY(-50%) translateX(-98%);
-  }
+    0% {
+        /* translateX(-2%) is used to horizontally center the first frame inside the viewport */
+        -webkit-transform: translateY(-50%) translateX(-2%);
+    }
+    100% {
+        /* translateX(-98%) (2% + 96) is used to horizontally center the last frame inside the viewport  */
+        -webkit-transform: translateY(-50%) translateX(-98%);
+    }
 }
+
 @-moz-keyframes cd-sequence {
-  0% {
-    /* translateX(-2%) is used to horizontally center the first frame inside the viewport */
-    -moz-transform: translateY(-50%) translateX(-2%);
-  }
-  100% {
-    /* translateX(-98%) (2% + 96) is used to horizontally center the last frame inside the viewport  */
-    -moz-transform: translateY(-50%) translateX(-98%);
-  }
+    0% {
+        /* translateX(-2%) is used to horizontally center the first frame inside the viewport */
+        -moz-transform: translateY(-50%) translateX(-2%);
+    }
+    100% {
+        /* translateX(-98%) (2% + 96) is used to horizontally center the last frame inside the viewport  */
+        -moz-transform: translateY(-50%) translateX(-98%);
+    }
 }
+
 @keyframes cd-sequence {
-  0% {
-    /* translateX(-2%) is used to horizontally center the first frame inside the viewport */
-    -webkit-transform: translateY(-50%) translateX(-2%);
-    -moz-transform: translateY(-50%) translateX(-2%);
-    -ms-transform: translateY(-50%) translateX(-2%);
-    -o-transform: translateY(-50%) translateX(-2%);
-    transform: translateY(-50%) translateX(-2%);
-  }
-  100% {
-    /* translateX(-98%) (2% + 96) is used to horizontally center the last frame inside the viewport  */
-    -webkit-transform: translateY(-50%) translateX(-98%);
-    -moz-transform: translateY(-50%) translateX(-98%);
-    -ms-transform: translateY(-50%) translateX(-98%);
-    -o-transform: translateY(-50%) translateX(-98%);
-    transform: translateY(-50%) translateX(-98%);
-  }
+    0% {
+        /* translateX(-2%) is used to horizontally center the first frame inside the viewport */
+        -webkit-transform: translateY(-50%) translateX(-2%);
+        -moz-transform: translateY(-50%) translateX(-2%);
+        -ms-transform: translateY(-50%) translateX(-2%);
+        -o-transform: translateY(-50%) translateX(-2%);
+        transform: translateY(-50%) translateX(-2%);
+    }
+    100% {
+        /* translateX(-98%) (2% + 96) is used to horizontally center the last frame inside the viewport  */
+        -webkit-transform: translateY(-50%) translateX(-98%);
+        -moz-transform: translateY(-50%) translateX(-98%);
+        -ms-transform: translateY(-50%) translateX(-98%);
+        -o-transform: translateY(-50%) translateX(-98%);
+        transform: translateY(-50%) translateX(-98%);
+    }
 }
+
 @-webkit-keyframes cd-sequence-reverse {
-  0% {
-    -webkit-transform: translateY(-50%) translateX(-98%);
-  }
-  100% {
-    -webkit-transform: translateY(-50%) translateX(-2%);
-  }
+    0% {
+        -webkit-transform: translateY(-50%) translateX(-98%);
+    }
+    100% {
+        -webkit-transform: translateY(-50%) translateX(-2%);
+    }
 }
+
 @-moz-keyframes cd-sequence-reverse {
-  0% {
-    -moz-transform: translateY(-50%) translateX(-98%);
-  }
-  100% {
-    -moz-transform: translateY(-50%) translateX(-2%);
-  }
+    0% {
+        -moz-transform: translateY(-50%) translateX(-98%);
+    }
+    100% {
+        -moz-transform: translateY(-50%) translateX(-2%);
+    }
 }
+
 @keyframes cd-sequence-reverse {
-  0% {
-    -webkit-transform: translateY(-50%) translateX(-98%);
-    -moz-transform: translateY(-50%) translateX(-98%);
-    -ms-transform: translateY(-50%) translateX(-98%);
-    -o-transform: translateY(-50%) translateX(-98%);
-    transform: translateY(-50%) translateX(-98%);
-  }
-  100% {
-    -webkit-transform: translateY(-50%) translateX(-2%);
-    -moz-transform: translateY(-50%) translateX(-2%);
-    -ms-transform: translateY(-50%) translateX(-2%);
-    -o-transform: translateY(-50%) translateX(-2%);
-    transform: translateY(-50%) translateX(-2%);
-  }
+    0% {
+        -webkit-transform: translateY(-50%) translateX(-98%);
+        -moz-transform: translateY(-50%) translateX(-98%);
+        -ms-transform: translateY(-50%) translateX(-98%);
+        -o-transform: translateY(-50%) translateX(-98%);
+        transform: translateY(-50%) translateX(-98%);
+    }
+    100% {
+        -webkit-transform: translateY(-50%) translateX(-2%);
+        -moz-transform: translateY(-50%) translateX(-2%);
+        -ms-transform: translateY(-50%) translateX(-2%);
+        -o-transform: translateY(-50%) translateX(-2%);
+        transform: translateY(-50%) translateX(-2%);
+    }
 }
 
 .transition-layer.visible {
@@ -253,11 +283,72 @@ body {
     animation: cd-sequence 0.8s steps(24);
     animation-fill-mode: forwards;
 }
+
 .transition-layer.closing .bg-layer {
-  -webkit-animation: cd-sequence-reverse 0.8s steps(24);
-  -moz-animation: cd-sequence-reverse 0.8s steps(24);
-  animation: cd-sequence-reverse 0.8s steps(24);
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+    -webkit-animation: cd-sequence-reverse 0.8s steps(24);
+    -moz-animation: cd-sequence-reverse 0.8s steps(24);
+    animation: cd-sequence-reverse 0.8s steps(24);
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+/* Loader */
+.sub {
+  display: block;
+  background-color: #cdcdcd;
+  height: 20px;
+  width: 150px;
+  margin: 10px 0px;
+  border-radius: 50px;
+}
+#sub1 {
+  background-color: lighten(red,20%);
+  animation: move 1.5s cubic-bezier(.79, 0, .47, .97) infinite;
+}
+#sub2 {
+  background-color: lighten(blue,30%);
+  animation: move-alt 1.5s cubic-bezier(.79, 0, .47, .97) infinite;
+  animation-direction: reverse;
+}
+@keyframes move{
+  0% {
+    transform: translateX(-30px);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(-30px);
+  }
+}
+@keyframes move-alt{
+  0% {
+    transform: translateX(30px);
+  }
+  50% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(30px);
+  }
+}
+#loader {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background-color: white;
+    width: 100vw;
+    position: absolute;
+}
+
+/* Small only */
+
+@media screen and (max-width: 48em) {
+    body {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.60) 30%, rgba(255, 255, 255, 0.90) 95%), url('../assets/theme.svg') no-repeat top left;
+        background-size: cover;
+    }
 }

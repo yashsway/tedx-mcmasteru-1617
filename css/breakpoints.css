@@ -33,15 +33,14 @@
 }*/
 /* Small only */
 @media screen and (max-width: 48em) {
-  .benefit-piece table {
-    border-spacing: 2px; }
-    .benefit-piece table * {
-      font-size: 10px; }
-    .benefit-piece table td, .benefit-piece table th {
-      padding: 5px; }
-    .benefit-piece table .checkmark {
-      height: 15px;
-      padding: 0px; }
+  .benefit-piece {
+    font-size: 8px; }
+    .benefit-piece table {
+      border-spacing: 2px !important; }
+      .benefit-piece table td, .benefit-piece table th {
+        padding: 5px !important; }
+    .benefit-piece .checkmark {
+      height: 30px !important; }
 
   .section-footer .content, .section-footer .contact {
     margin: 0px auto;

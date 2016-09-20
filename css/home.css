@@ -399,6 +399,24 @@ FOUNDATION FIXES
 .row .row {
   margin: 0; }
 
+/* TURNTABLE */
+.turntable {
+  margin: 0px; }
+
+.turntable ul {
+  padding: 0px;
+  margin: 0px; }
+
+.turntable ul li {
+  list-style-type: none;
+  display: none; }
+
+.turntable ul li img {
+  width: 100%; }
+
+.turntable ul li.active {
+  display: block; }
+
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -664,3 +682,52 @@ body {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
+
+/* Loader */
+.sub {
+  display: block;
+  background-color: #cdcdcd;
+  height: 20px;
+  width: 150px;
+  margin: 10px 0px;
+  border-radius: 50px; }
+
+#sub1 {
+  background-color: #ff6666;
+  animation: move 1.5s cubic-bezier(0.79, 0, 0.47, 0.97) infinite; }
+
+#sub2 {
+  background-color: #9999ff;
+  animation: move-alt 1.5s cubic-bezier(0.79, 0, 0.47, 0.97) infinite;
+  animation-direction: reverse; }
+
+@keyframes move {
+  0% {
+    transform: translateX(-30px); }
+  50% {
+    transform: translateX(30px); }
+  100% {
+    transform: translateX(-30px); } }
+@keyframes move-alt {
+  0% {
+    transform: translateX(30px); }
+  50% {
+    transform: translateX(-30px); }
+  100% {
+    transform: translateX(30px); } }
+#loader {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  background-color: white;
+  width: 100vw;
+  position: absolute; }
+
+/* Small only */
+@media screen and (max-width: 48em) {
+  body {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0.9) 95%), url("../assets/theme.svg") no-repeat top left;
+    background-size: cover; } }

@@ -399,6 +399,24 @@ FOUNDATION FIXES
 .row .row {
   margin: 0; }
 
+/* TURNTABLE */
+.turntable {
+  margin: 0px; }
+
+.turntable ul {
+  padding: 0px;
+  margin: 0px; }
+
+.turntable ul li {
+  list-style-type: none;
+  display: none; }
+
+.turntable ul li img {
+  width: 100%; }
+
+.turntable ul li.active {
+  display: block; }
+
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -470,4 +488,4 @@ body {
 .profile .body-text {
   max-width: 175px; }
 .profile img {
-  height: 200px; }
+  height: 64px; }

@@ -10,8 +10,12 @@ body {
             font-size: 50px;
             color: $primary-color;
         }
+        p {
+            margin: 10px 0px;
+        }
     }
     .benefit-piece {
+        margin-top: 20px;
         .checkmark {
             height: 50px;
         }

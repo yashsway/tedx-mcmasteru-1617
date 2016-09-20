@@ -399,6 +399,24 @@ FOUNDATION FIXES
 .row .row {
   margin: 0; }
 
+/* TURNTABLE */
+.turntable {
+  margin: 0px; }
+
+.turntable ul {
+  padding: 0px;
+  margin: 0px; }
+
+.turntable ul li {
+  list-style-type: none;
+  display: none; }
+
+.turntable ul li img {
+  width: 100%; }
+
+.turntable ul li.active {
+  display: block; }
+
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -456,12 +474,16 @@ body {
 .sponsor-page .header .icon {
   font-size: 50px;
   color: #E56B62; }
-.sponsor-page .benefit-piece .checkmark {
-  height: 50px; }
-.sponsor-page .benefit-piece .checkmark:hover {
-  -webkit-filter: hue-rotate(225deg);
-  -moz-filter: hue-rotate(225deg);
-  filter: hue-rotate(225deg); }
+.sponsor-page .header p {
+  margin: 10px 0px; }
+.sponsor-page .benefit-piece {
+  margin-top: 20px; }
+  .sponsor-page .benefit-piece .checkmark {
+    height: 50px; }
+  .sponsor-page .benefit-piece .checkmark:hover {
+    -webkit-filter: hue-rotate(225deg);
+    -moz-filter: hue-rotate(225deg);
+    filter: hue-rotate(225deg); }
 .sponsor-page .partner-piece img {
   height: 150px; }
 .sponsor-page .partner-piece .card {

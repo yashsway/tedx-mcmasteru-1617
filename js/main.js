@@ -8,24 +8,6 @@ $(document).ready(function () {
         backDelay: 1500,
         showCursor: true
     });
-    //Main Menu functionality
-    //Trigger dropdown
-    $("#main-menu").on('click', function () {
-        $("#myDropdown").toggleClass("show");
-    });
-    // Close the dropdown menu if the user clicks outside of it
-    window.onclick = function (event) {
-        if (!event.target.matches('#main-menu')) {
-            var dropdowns = $(".dropdown-content");
-            for (var i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
-        }
-    }
-    //END of main menu
     //file:///users/yash/Documents/Coding/Work/TedX/staticSite/assets/particles.json
     particlesJS.load('particles-js', 'assets/particles.json', function () {
         console.log('callback - particles.js config loaded');
@@ -102,4 +84,7 @@ $(document).ready(function () {
 
         resize = false;
     }
+});
+$(window).on('load',function(){
+  $("#loader").hide();
 });
