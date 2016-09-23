@@ -73,13 +73,13 @@ textarea {
   color: #312C35; }
 
 .primary-font, .primary-title, .secondary-title, .tertiary-title, .optional-title, .sub-title {
-  font-family: "Bariol", sans-serif; }
+  font-family: "Bariol Serif", sans-serif; }
 
 .secondary-font, .body-text, .detail {
   font-family: "Helvetica Neue", serif; }
 
 .tertiary-font, body, .description-text {
-  font-family: "Aleo", serif; }
+  font-family: "Bariol Serif", serif; }
 
 body {
   text-decoration: none;
@@ -90,7 +90,8 @@ body {
 
 .primary-title {
   color: #E56B62;
-  font-size: 4.248em;
+  font-size: 5.248em;
+  font-weight: 800;
   line-height: 50px; }
 
 .secondary-title {
@@ -117,7 +118,7 @@ body {
   color: #463F4C;
   font-size: 1em;
   letter-spacing: 0.4px;
-  line-height: 25px; }
+  line-height: 30px; }
 
 .body-text {
   /* Motivation can take : */
@@ -697,7 +698,7 @@ body {
   animation: move 1.5s cubic-bezier(0.79, 0, 0.47, 0.97) infinite; }
 
 #sub2 {
-  background-color: #9999ff;
+  background-color: #4d4d4d;
   animation: move-alt 1.5s cubic-bezier(0.79, 0, 0.47, 0.97) infinite;
   animation-direction: reverse; }
 

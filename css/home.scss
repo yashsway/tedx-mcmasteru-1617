@@ -306,7 +306,7 @@ body {
   animation: move 1.5s cubic-bezier(.79, 0, .47, .97) infinite;
 }
 #sub2 {
-  background-color: lighten(blue,30%);
+  background-color: lighten(black,30%);
   animation: move-alt 1.5s cubic-bezier(.79, 0, .47, .97) infinite;
   animation-direction: reverse;
 }

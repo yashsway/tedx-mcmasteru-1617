@@ -1,1 +1,15 @@
 @import 'base.scss';
+.dropdown {
+    position: fixed;
+    z-index: 10;
+}
+.header {
+    .icon {
+        font-size: 50px;
+        color: $primary-color;
+    }
+    h1 {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+}

@@ -113,7 +113,7 @@ textarea {
 }
 
 .primary-font {
-    font-family: "Bariol", sans-serif; //Bariol
+    font-family: "Bariol Serif", sans-serif; //Bariol
 }
 
 .secondary-font {
@@ -121,7 +121,7 @@ textarea {
 }
 
 .tertiary-font {
-    font-family: "Aleo", serif; //Aleo
+    font-family: "Bariol Serif", serif; //Aleo
 }
 
 body {
@@ -140,7 +140,8 @@ body {
     @extend .font-fix;
     @extend .primary-font;
     color: $primary-color;
-    font-size: 4.248em;
+    font-size: 5.248em;
+    font-weight: 800;
     line-height: 50px;
 }
 
@@ -182,7 +183,7 @@ body {
     color: $secondary-alt-2-color;
     font-size: 1em;
     letter-spacing: 0.4px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .body-text {

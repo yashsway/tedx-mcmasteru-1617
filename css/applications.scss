@@ -3,11 +3,20 @@ body {
     background: url(../assets/partner.svg) no-repeat top left;
     background-size: cover;
 }
-.applications-page {
-    .header {
-        .icon {
-            font-size: 50px;
-            color: $primary-color;
-        }
+.dropdown {
+    position: fixed;
+    z-index: 10;
+}
+.header {
+    .icon {
+        font-size: 50px;
+        color: $primary-color;
     }
+    h1 {
+        margin-top: 140px;
+        margin-bottom: 25px;
+    }
+}
+.applications-page {
+
 }

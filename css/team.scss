@@ -3,16 +3,25 @@ body {
     background: url(../assets/contact.svg) no-repeat top left;
     background-size: cover;
 }
+.dropdown {
+    position: fixed;
+    z-index: 10;
+}
 .columns {
     margin-top: +15px;
 }
-.team-page {
-    .header {
-        .icon {
-            font-size: 50px;
-            color: $primary-color;
-        }
+
+.header {
+    .icon {
+        font-size: 50px;
+        color: $primary-color;
     }
+    h1 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+.team-page {
     #curator {
         padding: 30px;
     }
@@ -20,6 +29,7 @@ body {
         background-color: white;
     }
 }
+
 .profile {
     p {
         margin: 0px;
