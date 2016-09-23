@@ -33,16 +33,30 @@
 }*/
 /* Small only */
 @media screen and (max-width: 48em) {
-    .benefit-piece {
-        font-size: 8px;
-        table {
-            border-spacing: 2px !important;
-            td, th {
-                padding: 5px !important;
+    .sponsor-page {
+        .benefit-piece {
+            font-size: 8px;
+            table {
+                border-spacing: 2px !important;
+                td, th {
+                    padding: 5px !important;
+                }
+                thead th:not(:first-child) {
+                   text-align: center;
+                }
+            }
+            .checkmark {
+                height: 30px !important;
             }
         }
-        .checkmark {
-            height: 30px !important;
+        .header {
+            margin-top: 5px;
+        }
+        .partner-piece {
+            margin: 0px;
+            img {
+                height: 80px;
+            }
         }
     }
     .section-footer {

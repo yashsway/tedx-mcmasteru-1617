@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css?family=Fira+Sans";
 * {
   box-sizing: border-box; }
 
@@ -7,6 +8,9 @@ Custom Font Sets
 @font-face {
   font-family: "Bariol";
   src: url(../assets/fonts/bariol_regular/bariol_regular_webfont.eot) format("eot"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.ttf) format("truetype"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff) format("woff"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff2) format("woff2"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.otf) format("opentype"); }
+@font-face {
+  font-family: "Bariol Serif";
+  src: url(../assets/fonts/bariol_serif/bariol_serif_regular.ttf) format("truetype"), url(../assets/fonts/bariol_regular/bariol_serif_regular.woff2) format("woff2"), url(../assets/fonts/bariol_serif/bariol_serif_regular_italic.ttf) format("truetype"), url(../assets/fonts/bariol_regular/bariol_serif_regular_italic.woff2) format("woff2"); }
 @font-face {
   font-family: "Aleo";
   src: url(../assets/fonts/aleo_regular/aleo_regular_webfont.eot) format("eot"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.ttf) format("truetype"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff) format("woff"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff2) format("woff2"); }
@@ -73,10 +77,10 @@ textarea {
   color: #312C35; }
 
 .primary-font, .primary-title, .secondary-title, .tertiary-title, .optional-title, .sub-title {
-  font-family: "Bariol Serif", sans-serif; }
+  font-family: "Fira Sans", sans-serif; }
 
 .secondary-font, .body-text, .detail {
-  font-family: "Helvetica Neue", serif; }
+  font-family: "Helvetica Neue", sans-serif; }
 
 .tertiary-font, body, .description-text {
   font-family: "Helvetica", serif; }
@@ -541,13 +545,17 @@ body {
   visibility: hidden; }
   .intro-page .header {
     padding: 20px 10px  0px 10px; }
+  .intro-page .dropdown {
+    position: fixed;
+    z-index: 10; }
   .intro-page .summary-piece h1 {
     padding: 0px; }
   .intro-page .history-piece .row {
     height: 100%; }
   .intro-page .history-piece .card {
     height: 200px;
-    width: 200px; }
+    width: 200px;
+    margin-top: 10px; }
     .intro-page .history-piece .card * {
       color: white; }
   .intro-page .history-piece .conference div {

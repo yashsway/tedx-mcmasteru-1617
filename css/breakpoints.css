@@ -33,14 +33,22 @@
 }*/
 /* Small only */
 @media screen and (max-width: 48em) {
-  .benefit-piece {
+  .sponsor-page .benefit-piece {
     font-size: 8px; }
-    .benefit-piece table {
+    .sponsor-page .benefit-piece table {
       border-spacing: 2px !important; }
-      .benefit-piece table td, .benefit-piece table th {
+      .sponsor-page .benefit-piece table td, .sponsor-page .benefit-piece table th {
         padding: 5px !important; }
-    .benefit-piece .checkmark {
+      .sponsor-page .benefit-piece table thead th:not(:first-child) {
+        text-align: center; }
+    .sponsor-page .benefit-piece .checkmark {
       height: 30px !important; }
+  .sponsor-page .header {
+    margin-top: 5px; }
+  .sponsor-page .partner-piece {
+    margin: 0px; }
+    .sponsor-page .partner-piece img {
+      height: 80px; }
 
   .section-footer .content, .section-footer .contact {
     margin: 0px auto;
