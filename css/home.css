@@ -63,7 +63,7 @@ textarea {
 
 /* Default typography
 --------------------- */
-.primary-text-color {
+.primary-text-color, .intro-page .summary-piece h1 {
   color: #E62B1E; }
 
 .secondary-text-color {
@@ -79,7 +79,7 @@ textarea {
   font-family: "Helvetica Neue", serif; }
 
 .tertiary-font, body, .description-text {
-  font-family: "Bariol Serif", serif; }
+  font-family: "Helvetica", serif; }
 
 body {
   text-decoration: none;
@@ -116,8 +116,8 @@ body {
 
 .description-text {
   color: #463F4C;
-  font-size: 1em;
-  letter-spacing: 0.4px;
+  font-size: 1.08em;
+  letter-spacing: 0px;
   line-height: 30px; }
 
 .body-text {
@@ -539,6 +539,23 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   visibility: hidden; }
+  .intro-page .header {
+    padding: 20px 10px  0px 10px; }
+  .intro-page .summary-piece h1 {
+    padding: 0px; }
+  .intro-page .history-piece .row {
+    height: 100%; }
+  .intro-page .history-piece .card {
+    height: 200px;
+    width: 200px; }
+    .intro-page .history-piece .card * {
+      color: white; }
+  .intro-page .history-piece .conference div {
+    padding: 0px 5px; }
+  .intro-page .history-piece .conference div:nth-child(1) {
+    order: 1; }
+  .intro-page .history-piece .conference div:nth-child(2) {
+    order: 2; }
 
 .intro-footer {
   color: #FFF2F1;
@@ -694,11 +711,11 @@ body {
   border-radius: 50px; }
 
 #sub1 {
-  background-color: #ff6666;
+  background-color: #ff3333;
   animation: move 1.5s cubic-bezier(0.79, 0, 0.47, 0.97) infinite; }
 
 #sub2 {
-  background-color: #4d4d4d;
+  background-color: #1a1a1a;
   animation: move-alt 1.5s cubic-bezier(0.79, 0, 0.47, 0.97) infinite;
   animation-direction: reverse; }
 

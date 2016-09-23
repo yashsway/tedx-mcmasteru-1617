@@ -97,6 +97,38 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     visibility: hidden;
+    .header {
+        padding: 20px 10px  0px 10px;
+    }
+    .summary-piece {
+        h1 {
+            @extend .primary-text-color;
+            padding: 0px;
+        }
+    }
+    .history-piece {
+        .row {
+            height: 100%;
+        }
+        .card {
+            height: 200px;
+            width: 200px;
+            * {
+                color: white;
+            }
+        }
+        .conference {
+            div {
+                padding: 0px 5px;
+            }
+            div:nth-child(1) {
+                order: 1;
+            }
+            div:nth-child(2) {
+                order: 2;
+            }
+        }
+    }
 }
 
 .intro-footer {
@@ -302,11 +334,11 @@ body {
   border-radius: 50px;
 }
 #sub1 {
-  background-color: lighten(red,20%);
+  background-color: lighten(red,10%);
   animation: move 1.5s cubic-bezier(.79, 0, .47, .97) infinite;
 }
 #sub2 {
-  background-color: lighten(black,30%);
+  background-color: lighten(black,10%);
   animation: move-alt 1.5s cubic-bezier(.79, 0, .47, .97) infinite;
   animation-direction: reverse;
 }

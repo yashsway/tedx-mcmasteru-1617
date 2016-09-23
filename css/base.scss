@@ -121,7 +121,7 @@ textarea {
 }
 
 .tertiary-font {
-    font-family: "Bariol Serif", serif; //Aleo
+    font-family: "Helvetica", serif; //Aleo
 }
 
 body {
@@ -181,8 +181,8 @@ body {
     @extend .tertiary-font;
     @extend .font-fix;
     color: $secondary-alt-2-color;
-    font-size: 1em;
-    letter-spacing: 0.4px;
+    font-size: 1.08em;
+    letter-spacing: 0px;
     line-height: 30px;
 }
 
@@ -327,7 +327,7 @@ footer {
 
 .card {
     color: $primary-alt-2-color;
-    background: #463F4C;
+    background: $secondary-alt-2-color; //463F4C
     box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 5px 0px rgba(70, 63, 76, 0.50);
 }
 .piece {

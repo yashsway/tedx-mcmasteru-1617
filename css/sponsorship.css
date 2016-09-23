@@ -79,7 +79,7 @@ textarea {
   font-family: "Helvetica Neue", serif; }
 
 .tertiary-font, body, .description-text {
-  font-family: "Bariol Serif", serif; }
+  font-family: "Helvetica", serif; }
 
 body {
   text-decoration: none;
@@ -116,8 +116,8 @@ body {
 
 .description-text {
   color: #463F4C;
-  font-size: 1em;
-  letter-spacing: 0.4px;
+  font-size: 1.08em;
+  letter-spacing: 0px;
   line-height: 30px; }
 
 .body-text {
