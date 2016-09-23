@@ -489,7 +489,8 @@ body {
 .team-page #curator {
   padding: 30px; }
 .team-page .card {
-  background-color: white; }
+  background-color: white;
+  max-width: 200px; }
 
 .profile p {
   margin: 0px;
