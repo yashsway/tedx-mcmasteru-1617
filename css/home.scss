@@ -121,6 +121,10 @@ body {
             * {
                 color: white;
             }
+            @media screen and (max-width: 48em) {
+                max-height: 150px;
+                max-width: 150px;
+            }
         }
         .conference {
             div {

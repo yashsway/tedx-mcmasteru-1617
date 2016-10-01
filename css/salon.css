@@ -1,3 +1,7 @@
+/* Small only */
+/* Medium up */
+/* Medium only */
+/* Large and up */
 @import "https://fonts.googleapis.com/css?family=Fira+Sans";
 * {
   box-sizing: border-box; }
@@ -96,22 +100,22 @@ body {
   color: #E56B62;
   font-size: 5.248em;
   font-weight: 800;
-  line-height: 50px; }
+  line-height: 1.2; }
 
 .secondary-title {
   color: #000000;
   font-size: 3.374em;
-  line-height: 40px; }
+  line-height: 1.1; }
 
 .tertiary-title {
   color: #312C35;
   font-size: 2.50em;
-  line-height: 30px; }
+  line-height: 1.1; }
 
 .optional-title {
   color: #463F4C;
   font-size: 1.938em;
-  line-height: 25px; }
+  line-height: 1.8; }
 
 .sub-title {
   color: #E62B1E;
@@ -222,6 +226,18 @@ footer {
       padding-right: 20px; }
     .section-footer .social i {
       font-size: 3em; }
+  @media screen and (max-width: 48em) {
+    .section-footer .contact {
+      margin: 0px auto;
+      display: table; }
+      .section-footer .contact > * {
+        display: table-cell; }
+    .section-footer .logo {
+      height: 110px; }
+    .section-footer .detail {
+      text-align: center; }
+    .section-footer .social li {
+      padding: 0px; } }
 
 .slate {
   background-color: #FFF2F1;
@@ -231,7 +247,8 @@ footer {
 .card {
   color: #FFF2F1;
   background: #463F4C;
-  box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 5px 0px rgba(70, 63, 76, 0.5); }
+  box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 5px 0px rgba(70, 63, 76, 0.5);
+  padding: 15px; }
 
 .piece {
   margin: 20px 0px; }

@@ -1,117 +1,37 @@
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-/*@media only screen and (min-width: 320px) {
-    body {
-        font-size: 8px;
-    }
-}
-@media only screen and (min-width: 480px) {
-    body {
-        font-size: 12px;
-    }
-}
-@media only screen and (min-width: 533px) {
-    body {
-        font-size: 14px;
-    }
-}
-@media only screen and (min-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-}
-@media only screen and (min-width: 850px) {
-    body {
-        font-size: 14px;
-    }
-}
-@media only screen and (min-width: 1140px) {
-    body {
-        font-size: 16px;
-    }
-}*/
+$phone-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 992px;
+$large-desktop-width: 1200px;
+$phone-max-width: 48em;
+$tablet-max-width: 63.9375em;
+$desktop-min-width: 64em;
+$desktop-max-width: 74.9375em;
+
 /* Small only */
-@media screen and (max-width: 48em) {
-    .sponsor-page {
-        .benefit-piece {
-            font-size: 8px;
-            table {
-                border-spacing: 2px !important;
-                td, th {
-                    padding: 5px !important;
-                }
-                thead th:not(:first-child) {
-                   text-align: center;
-                }
-            }
-            .checkmark {
-                height: 30px !important;
-            }
-        }
-        .header {
-            margin-top: 5px;
-        }
-        .partner-piece {
-            margin: 0px;
-            img {
-                height: 80px;
-            }
-        }
-    }
-    .section-footer {
-        //SASS needs class to be in same directive.
-        .content {
-            margin: 0px auto;
-            display: table;
-        }
-
-        //First descendant, any element
-        .content > * {
-            display: table-cell;
-        }
-        //End of content fill
-        .contact {
-            @extend .content;
-        }
-        .logo {
-            height: 110px;
-        }
-        .detail {
-            text-align: center;
-        }
-        .social {
-            li {
-                padding: 0px;
-            }
-        }
+@mixin small-only {
+    @media screen and (max-width:#{$phone-max-width}) {
+        @content;
     }
 }
-
-/* Medium and up */
-@media screen and (min-width: 48em) {
+/* Medium up */
+@mixin medium-up {
+    @media screen and (min-width:#{$phone-max-width}) {
+        @content;
+    }
 }
-
 /* Medium only */
-@media screen and (min-width: 48em) and (max-width: 63.9375em) {
-    .budget-piece table {
-        border-spacing: 5px;
-        * {
-            font-size: 15px;
-        }
-        td, th {
-            padding: 15px;
-        }
-        img {
-            max-height: 15px;
-            padding: 0px;
-        }
+@mixin medium-only {
+    @media screen and (min-width: #{$phone-max-width}) and (max-width: #{$tablet-max-width}) {
+        @content;
     }
 }
-
 /* Large and up */
-@media screen and (min-width: 64em) {
+@mixin desktop-up {
+    @media screen and (min-width: #{$desktop-min-width}) {
+    }
 }
-
-/* Large only */
-@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+@mixin large-desktop-up {
+    @media only screen and (min-width: #{$large-desktop-width}) {
+        @content;
+    }
+}

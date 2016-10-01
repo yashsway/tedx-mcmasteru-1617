@@ -1,3 +1,5 @@
+//Dependencies
+@import "breakpoints.scss";
 //Colors
 $official-primary-color: #E62B1E;
 $primary-color: #E56B62;
@@ -149,7 +151,7 @@ body {
     color: $primary-color;
     font-size: 5.248em;
     font-weight: 800;
-    line-height: 50px;
+    line-height: 1.2;
 }
 
 .secondary-title {
@@ -157,7 +159,7 @@ body {
     @extend .primary-font;
     color: $official-secondary-color;
     font-size: 3.374em;
-    line-height: 40px;
+    line-height: 1.1;
 }
 
 .tertiary-title {
@@ -165,7 +167,7 @@ body {
     @extend .primary-font;
     color: $secondary-color;
     font-size: 2.50em;
-    line-height: 30px;
+    line-height: 1.1;
 }
 
 .optional-title {
@@ -173,7 +175,7 @@ body {
     @extend .primary-font;
     color: $secondary-alt-2-color;
     font-size: 1.938em;
-    line-height: 25px;
+    line-height: 1.8;
 }
 
 .sub-title {
@@ -324,6 +326,26 @@ footer {
             font-size: 3em;
         }
     }
+    @include small-only {
+        .contact {
+            margin: 0px auto;
+            display: table;
+            > * {
+                display: table-cell;
+            }
+        }
+        .logo {
+            height: 110px;
+        }
+        .detail {
+            text-align: center;
+        }
+        .social {
+            li {
+                padding: 0px;
+            }
+        }
+    }
 }
 
 .slate {
@@ -336,6 +358,7 @@ footer {
     color: $primary-alt-2-color;
     background: $secondary-alt-2-color; //463F4C
     box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 5px 0px rgba(70, 63, 76, 0.50);
+    padding: 15px;
 }
 .piece {
     margin: 20px 0px;

@@ -8,6 +8,7 @@ body {
     position: fixed;
     z-index: 10;
 }
+
 .sponsor-page {
     .header {
         .icon {
@@ -15,11 +16,14 @@ body {
             color: $primary-color;
         }
         h1 {
-            margin-top: 50px;
-            margin-bottom: 25px;
+            //margin-top: 50px;
+            //margin-bottom: 25px;
         }
         p {
             margin: 10px 0px;
+        }
+        @include small-only {
+            margin-top: 5px;
         }
     }
     .benefit-piece {
@@ -32,6 +36,30 @@ body {
             -moz-filter: hue-rotate(225deg);
             filter: hue-rotate(225deg);
         }
+        @include small-only {
+            font-size: 8px;
+            table {
+                border-spacing: 2px !important;
+                td,
+                th {
+                    padding: 5px !important;
+                }
+                thead th:not(:first-child) {
+                    text-align: center;
+                }
+            }
+            .checkmark {
+                height: 30px !important;
+            }
+        }
+    }
+    .stats-piece {
+        > div > div {
+            * {
+                color: white;
+            }
+            margin-bottom: 15px;
+        }
     }
     .partner-piece {
         img {
@@ -39,6 +67,29 @@ body {
         }
         .card {
             background-color: white;
+        }
+        @include small-only {
+            margin: 0px;
+            img {
+                height: 80px;
+            }
+        }
+    }
+    .budget-piece {
+        @include medium-only {
+            table {
+                border-spacing: 5px;
+                * {
+                    font-size: 15px;
+                }
+                td, th {
+                    padding: 15px;
+                }
+                img {
+                    max-height: 15px;
+                    padding: 0px;
+                }
+            }
         }
     }
 }
