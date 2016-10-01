@@ -22,8 +22,8 @@ $tertiary-alt-3-color: #664C4C;
 /*
 Custom Font Sets
 ----------------*/
-@import 'https://fonts.googleapis.com/css?family=Fira+Sans';
-@font-face {
+@import 'https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i';
+/*@font-face {
     font-family: "Bariol";
     src: url(../assets/fonts/bariol_regular/bariol_regular_webfont.eot) format("eot"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.ttf) format("truetype"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff) format("woff"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff2) format("woff2"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.otf) format("opentype");
 }
@@ -43,7 +43,7 @@ Custom Font Sets
 @font-face {
     font-family: "Erato";
     src: url(../assets/fonts/erato_light/erato_light.otf) format("opentype");
-}
+}*/
 
 
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
@@ -100,10 +100,10 @@ textarea {
     padding: 0.2em 0;
 }
 
-.wrapper {
+/*.wrapper {
     width: 90%;
     margin: 0 5%;
-}
+}*/
 
 
 /* Default typography
@@ -167,7 +167,7 @@ body {
     @extend .primary-font;
     color: $secondary-color;
     font-size: 2.50em;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .optional-title {
@@ -175,7 +175,7 @@ body {
     @extend .primary-font;
     color: $secondary-alt-2-color;
     font-size: 1.938em;
-    line-height: 1.8;
+    line-height: 1;
 }
 
 .sub-title {

@@ -2,25 +2,34 @@
 /* Medium up */
 /* Medium only */
 /* Large and up */
-@import "https://fonts.googleapis.com/css?family=Fira+Sans";
+@import "https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i";
 * {
   box-sizing: border-box; }
 
 /*
 Custom Font Sets
 ----------------*/
+/*@font-face {
+    font-family: "Bariol";
+    src: url(../assets/fonts/bariol_regular/bariol_regular_webfont.eot) format("eot"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.ttf) format("truetype"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff) format("woff"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff2) format("woff2"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.otf) format("opentype");
+}
 @font-face {
-  font-family: "Bariol";
-  src: url(../assets/fonts/bariol_regular/bariol_regular_webfont.eot) format("eot"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.ttf) format("truetype"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff) format("woff"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff2) format("woff2"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.otf) format("opentype"); }
+    font-family: "Bariol Serif";
+    src: url(../assets/fonts/bariol_serif/bariol_serif_regular.ttf) format("truetype"),
+        url(../assets/fonts/bariol_regular/bariol_serif_regular.woff2) format("woff2"),
+        url(../assets/fonts/bariol_serif/bariol_serif_regular_italic.ttf) format("truetype"),
+        url(../assets/fonts/bariol_regular/bariol_serif_regular_italic.woff2) format("woff2");
+}
+
 @font-face {
-  font-family: "Bariol Serif";
-  src: url(../assets/fonts/bariol_serif/bariol_serif_regular.ttf) format("truetype"), url(../assets/fonts/bariol_regular/bariol_serif_regular.woff2) format("woff2"), url(../assets/fonts/bariol_serif/bariol_serif_regular_italic.ttf) format("truetype"), url(../assets/fonts/bariol_regular/bariol_serif_regular_italic.woff2) format("woff2"); }
+    font-family: "Aleo";
+    src: url(../assets/fonts/aleo_regular/aleo_regular_webfont.eot) format("eot"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.ttf) format("truetype"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff) format("woff"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff2) format("woff2");
+}
+
 @font-face {
-  font-family: "Aleo";
-  src: url(../assets/fonts/aleo_regular/aleo_regular_webfont.eot) format("eot"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.ttf) format("truetype"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff) format("woff"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff2) format("woff2"); }
-@font-face {
-  font-family: "Erato";
-  src: url(../assets/fonts/erato_light/erato_light.otf) format("opentype"); }
+    font-family: "Erato";
+    src: url(../assets/fonts/erato_light/erato_light.otf) format("opentype");
+}*/
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 html {
   max-width: 100% !important;
@@ -65,10 +74,10 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
-.wrapper {
-  width: 90%;
-  margin: 0 5%; }
-
+/*.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}*/
 /* Default typography
 --------------------- */
 .primary-text-color, .intro-page .summary-piece h1 {
@@ -110,12 +119,12 @@ body {
 .tertiary-title {
   color: #312C35;
   font-size: 2.50em;
-  line-height: 1.1; }
+  line-height: 1.2; }
 
 .optional-title {
   color: #463F4C;
   font-size: 1.938em;
-  line-height: 1.8; }
+  line-height: 1; }
 
 .sub-title {
   color: #E62B1E;
