@@ -557,3 +557,10 @@ body {
     .sponsor-page .budget-piece table img {
       max-height: 15px;
       padding: 0px; } }
+.sponsor-page .typeform-share {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 20px; }
+.sponsor-page .form-piece .row > .small-3 {
+  margin-top: 30px; }
