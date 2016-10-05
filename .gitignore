@@ -1,0 +1,7 @@
+# SASS
+*.scss
+
+# Libraries
+css/bourbon
+bower_components
+node_modules

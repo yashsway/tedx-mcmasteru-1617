@@ -3,10 +3,12 @@ body {
     background: url(../assets/partner.svg) no-repeat top left;
     background-size: cover;
 }
+
 .dropdown {
     position: fixed;
     z-index: 10;
 }
+
 .header {
     .icon {
         font-size: 50px;
@@ -17,6 +19,9 @@ body {
         margin-bottom: 25px;
     }
 }
-.applications-page {
 
+.applications-page {
+    button {
+        width: 200px;
+    }
 }
