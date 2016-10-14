@@ -5,3 +5,6 @@
 css/bourbon
 bower_components
 node_modules
+
+#other
+.idea
