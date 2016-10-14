@@ -3,7 +3,45 @@ body {
     background: url(../assets/mission.svg) no-repeat top left;
     background-size: cover;
 }
+
 .dropdown {
     position: fixed;
     z-index: 10;
+}
+
+.piece {
+    .piece-header {
+        margin-left: -20px;
+        margin-top: 15px;
+    }
+    .data {
+        text-align: right;
+        padding: 15px;
+        margin-top: 70px;
+        width: auto;
+        background-color: $tertiary-alt-1-color;
+        border-radius: 3px;
+        .wrap {
+            overflow: hidden;
+        }
+        img {
+            width: 90%;
+            display: block;
+            @include small-only {
+                transform: scale(2);
+                -ms-transform: scale(2);
+                /* IE 9 */
+                -moz-transform: scale(2);
+                /* Firefox */
+                -webkit-transform: scale(2);
+            }
+        }
+    }
+    .apply {
+        font-size: 1.2em;
+        a {
+            padding: 20px;
+            width: 250px;
+        }
+    }
 }

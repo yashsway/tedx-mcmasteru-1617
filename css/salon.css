@@ -165,9 +165,6 @@ Default button styles
   font-family: "Bariol", sans-serif;
   font-size: 0.625em;
   font-weight: 700;
-  font-smooth: 1em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   padding: 0px; }
   .button a, .button-secondary a {
     height: 100%;
@@ -547,3 +544,32 @@ body {
 .dropdown {
   position: fixed;
   z-index: 10; }
+
+.piece .piece-header {
+  margin-left: -20px;
+  margin-top: 15px; }
+.piece .data {
+  text-align: right;
+  padding: 15px;
+  margin-top: 70px;
+  width: auto;
+  background-color: #EAC9C7;
+  border-radius: 3px; }
+  .piece .data .wrap {
+    overflow: hidden; }
+  .piece .data img {
+    width: 90%;
+    display: block; }
+    @media screen and (max-width: 48em) {
+      .piece .data img {
+        transform: scale(2);
+        -ms-transform: scale(2);
+        /* IE 9 */
+        -moz-transform: scale(2);
+        /* Firefox */
+        -webkit-transform: scale(2); } }
+.piece .apply {
+  font-size: 1.2em; }
+  .piece .apply a {
+    padding: 20px;
+    width: 250px; }

@@ -165,9 +165,6 @@ Default button styles
   font-family: "Bariol", sans-serif;
   font-size: 0.625em;
   font-weight: 700;
-  font-smooth: 1em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   padding: 0px; }
   .button a, .button-secondary a {
     height: 100%;
