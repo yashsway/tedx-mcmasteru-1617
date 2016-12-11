@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="1024px" height="200px" viewBox="0 0 1024 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
     <title>footer</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="footer">
-            <path d="M99,25 L-40,191" id="Line" stroke="#312C35" stroke-width="50" stroke-linecap="round" transform="translate(29.500000, 108.000000) scale(-1, -1) translate(-29.500000, -108.000000) "></path>
+            <path d="M97,26 L-40,191" id="Line" stroke="#312C35" stroke-width="50" stroke-linecap="round" transform="translate(28.500000, 108.500000) scale(-1, -1) translate(-28.500000, -108.500000) "></path>
             <path d="M37,26 L-98,186" id="Line" stroke="#312C35" stroke-width="50" stroke-linecap="round" transform="translate(-30.500000, 106.000000) scale(-1, -1) translate(30.500000, -106.000000) "></path>
             <path d="M140,43 L-5,215" id="Line" stroke="#312C35" stroke-width="50" stroke-linecap="round" transform="translate(67.500000, 129.000000) scale(-1, -1) translate(-67.500000, -129.000000) "></path>
-            <path d="M206,25 L61,197" id="Line" stroke="#312C35" stroke-width="50" stroke-linecap="round" transform="translate(133.500000, 111.000000) scale(-1, -1) translate(-133.500000, -111.000000) "></path>
-            <path d="M268,15 L112,202" id="Line" stroke="#312C35" stroke-width="50" stroke-linecap="round" transform="translate(190.000000, 108.500000) scale(-1, -1) translate(-190.000000, -108.500000) "></path>
+            <path d="M206,27 L61,197" id="Line" stroke="#312C35" stroke-width="50" stroke-linecap="round" transform="translate(133.500000, 112.000000) scale(-1, -1) translate(-133.500000, -112.000000) "></path>
+            <path d="M260,26 L112,202" id="Line" stroke="#312C35" stroke-width="50" stroke-linecap="round" transform="translate(186.000000, 114.000000) scale(-1, -1) translate(-186.000000, -114.000000) "></path>
             <path d="M286,57 L112,267" id="Line" stroke="#312C35" stroke-width="50" stroke-linecap="round" transform="translate(199.000000, 162.000000) scale(-1, -1) translate(-199.000000, -162.000000) "></path>
             <path d="M364,25 L206,212" id="Line" stroke="#312C35" stroke-width="50" stroke-linecap="round" transform="translate(285.000000, 118.500000) scale(-1, -1) translate(-285.000000, -118.500000) "></path>
             <path d="M422,28 L254,229" id="Line" stroke="#312C35" stroke-width="50" stroke-linecap="round" transform="translate(338.000000, 128.500000) scale(-1, -1) translate(-338.000000, -128.500000) "></path>
