@@ -24,7 +24,7 @@ $tertiary-alt-3-color: #664C4C;
 Custom Font Sets
 ----------------*/
 @import 'https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i';
-/*@font-face {
+@font-face {
     font-family: "Bariol";
     src: url(../assets/fonts/bariol_regular/bariol_regular_webfont.eot) format("eot"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.ttf) format("truetype"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff) format("woff"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.woff2) format("woff2"), url(../assets/fonts/bariol_regular/bariol_regular_webfont.otf) format("opentype");
 }
@@ -35,7 +35,7 @@ Custom Font Sets
         url(../assets/fonts/bariol_serif/bariol_serif_regular_italic.ttf) format("truetype"),
         url(../assets/fonts/bariol_regular/bariol_serif_regular_italic.woff2) format("woff2");
 }
-
+/*
 @font-face {
     font-family: "Aleo";
     src: url(../assets/fonts/aleo_regular/aleo_regular_webfont.eot) format("eot"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.ttf) format("truetype"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff) format("woff"), url(../assets/fonts/aleo_regular/aleo_regular_webfont.woff2) format("woff2");
