@@ -82,7 +82,7 @@ $(window).on('load', function () {
     $("#loader").hide();
     //Start typing
     $("#typing").typed({
-        strings: ["Discovery.", "Creativity.", "Optimism.", "TEDx McMaster U"],
+        strings: ["Discovery.", "Confidence.", "Optimism.", "TEDx McMaster U"],
         typeSpeed: 50,
         backSpeed: 10,
         loop: false,

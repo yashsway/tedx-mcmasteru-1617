@@ -125,7 +125,7 @@ body {
 .optional-title {
   color: #463F4C;
   font-size: 1.938em;
-  line-height: 1; }
+  line-height: normal; }
 
 .sub-title {
   color: #E62B1E;

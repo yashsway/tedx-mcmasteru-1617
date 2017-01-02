@@ -175,7 +175,7 @@ body {
     @extend .primary-font;
     color: $secondary-alt-2-color;
     font-size: 1.938em;
-    line-height: 1;
+    line-height: normal;
 }
 
 .sub-title {
