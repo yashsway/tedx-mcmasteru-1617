@@ -202,13 +202,13 @@ body {
     }
     .speaker-piece {
         .row {
-            justify-content: flex-start;
+            justify-content: center;
         }
         .box {
-            flex: 0 1 auto;
+            flex: 0 3 auto;
+            text-align: center;
         }
         img {
-            display: inline-block;
             width: 350px;
             height: auto;
         }

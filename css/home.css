@@ -692,11 +692,11 @@ body {
       .intro-page .partner-piece img {
         height: 80px; } }
   .intro-page .speaker-piece .row {
-    justify-content: flex-start; }
+    justify-content: center; }
   .intro-page .speaker-piece .box {
-    flex: 0 1 auto; }
+    flex: 0 3 auto;
+    text-align: center; }
   .intro-page .speaker-piece img {
-    display: inline-block;
     width: 350px;
     height: auto; }
 
