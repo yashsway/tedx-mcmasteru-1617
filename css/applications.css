@@ -74,6 +74,9 @@ textarea {
   height: 100%;
   width: 100%; }
 
+.small-margin {
+  margin: 15px 0px; }
+
 /* Default typography
 --------------------- */
 .primary-text-color {
@@ -110,7 +113,8 @@ body {
 .secondary-title {
   color: #000000;
   font-size: 3.274em;
-  line-height: 1.1; }
+  line-height: 1.1;
+  font-weight: 600; }
 
 .tertiary-title {
   color: #312C35;
@@ -119,13 +123,13 @@ body {
 
 .optional-title {
   color: #463F4C;
-  font-size: 1.938em;
+  font-size: 1.517em;
   line-height: normal; }
 
 .sub-title {
   color: #E62B1E;
-  font-size: 1.517em;
-  line-height: 20px; }
+  font-size: 1.938em;
+  line-height: normal; }
 
 .description-text {
   color: #463F4C;
@@ -166,6 +170,11 @@ Default button styles
     width: 100%;
     display: block;
     padding: 10px 20px; }
+  .button:disabled, .button-secondary:disabled {
+    cursor: none;
+    pointer-events: none; }
+    .button:disabled a, .button-secondary:disabled a {
+      text-decoration: line-through; }
 
 .button-secondary {
   text-transform: none;
@@ -249,7 +258,7 @@ footer {
   background: url(../assets/footer.svg) no-repeat top left;
   background-size: cover; }
   .section-footer .detail {
-    padding: 0px 0px 10px 10px; }
+    padding: 10px 0px 0px 20px; }
   .section-footer .logo {
     max-height: 150px;
     width: auto;
@@ -289,7 +298,7 @@ footer {
 
 .card {
   color: #FFF2F1;
-  background: #463F4C;
+  background: #171519;
   box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 5px 0px rgba(70, 63, 76, 0.5);
   padding: 15px; }
 
@@ -341,6 +350,14 @@ table {
   table td,
   table th {
     padding: 20px; }
+
+.label {
+  background-color: #664C4C;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  margin: 10px 0px 10px 10px;
+  vertical-align: top; }
 
 /* START OF MENU STUFF */
 /* The container <div> - needed to position the dropdown content */

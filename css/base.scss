@@ -106,6 +106,9 @@ textarea {
     height: 100%;
     width: 100%;
 }
+.small-margin {
+    margin: 15px 0px;
+}
 /* Default typography
 --------------------- */
 
@@ -160,6 +163,7 @@ body {
     color: $official-secondary-color;
     font-size: 3.274em;
     line-height: 1.1;
+    font-weight: 600;
 }
 
 .tertiary-title {
@@ -174,7 +178,7 @@ body {
     @extend .font-fix;
     @extend .primary-font;
     color: $secondary-alt-2-color;
-    font-size: 1.938em;
+    font-size: 1.517em;
     line-height: normal;
 }
 
@@ -182,8 +186,8 @@ body {
     @extend .font-fix;
     @extend .primary-font;
     color: $official-primary-color;
-    font-size: 1.517em;
-    line-height: 20px;
+    font-size: 1.938em;
+    line-height: normal;
 }
 
 .description-text {
@@ -240,6 +244,11 @@ Default button styles
         width: 100%;
         display: block;
         padding: 10px 20px;
+    }
+    &:disabled {
+        cursor: none;
+        pointer-events: none;
+        a { text-decoration: line-through; }
     }
 }
 .button-secondary {
@@ -333,7 +342,7 @@ footer {
     background: url(../assets/footer.svg) no-repeat top left;
     background-size: cover;
     .detail {
-        padding: 0px 0px 10px 10px;
+        padding: 10px 0px 0px 20px;
     }
     .logo {
         max-height: 150px;
@@ -393,7 +402,7 @@ footer {
 
 .card {
     color: $primary-alt-2-color;
-    background: $secondary-alt-2-color; //463F4C
+    background: $secondary-alt-1-color; //463F4C
     box-shadow: 0px 3px 0px 0px #312C35, 0px 3px 5px 0px rgba(70, 63, 76, 0.50);
     padding: 15px;
 }
@@ -459,6 +468,14 @@ table {
     }
 }
 
+.label {
+    background-color: $tertiary-alt-3-color;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 10px 0px 10px 10px;
+    vertical-align: top;
+}
 
 /* START OF MENU STUFF */
 
