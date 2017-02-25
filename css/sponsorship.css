@@ -117,7 +117,7 @@ body {
   font-weight: 600; }
 
 .tertiary-title {
-  color: #312C35;
+  color: #E62B1E;
   font-size: 2.50em;
   line-height: 1.2; }
 
@@ -142,7 +142,7 @@ body {
   font-size: 1em;
   color: #171519;
   letter-spacing: 0px;
-  line-height: 22px; }
+  line-height: 25px; }
 
 .detail {
   font-size: 0.8em; }
@@ -499,6 +499,10 @@ FOUNDATION FIXES
 .turntable ul li.active {
   display: block; }
 
+.dropdown {
+  position: fixed;
+  z-index: 10; }
+
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -553,10 +557,6 @@ body {
   background: url(../assets/benefits.svg) no-repeat top left;
   background-size: cover; }
 
-.dropdown {
-  position: fixed;
-  z-index: 10; }
-
 .sponsor-page .header .icon {
   font-size: 50px;
   color: #E56B62; }
@@ -606,21 +606,29 @@ body {
     padding: 5px;
     border-radius: 5px; }
   .sponsor-page .partner-piece .card.small {
-    height: 85px; }
+    height: 85px;
+    padding: 0px; }
     .sponsor-page .partner-piece .card.small img {
-      height: 70px; }
+      height: 70px;
+      padding: 5px; }
   .sponsor-page .partner-piece .card.medium {
-    height: 150px; }
+    height: 150px;
+    padding: 0px; }
     .sponsor-page .partner-piece .card.medium img {
-      height: 140px; }
+      height: 140px;
+      padding: 5px; }
   .sponsor-page .partner-piece .card.large {
-    height: 200px; }
+    height: 200px;
+    padding: 0px; }
     .sponsor-page .partner-piece .card.large img {
-      height: 190px; }
+      height: 190px;
+      padding: 5px; }
   .sponsor-page .partner-piece .card.xlarge {
-    height: 250px; }
+    height: 250px;
+    padding: 0px; }
     .sponsor-page .partner-piece .card.xlarge img {
-      height: 240px; }
+      height: 240px;
+      padding: 5px; }
 @media screen and (max-width: 48em) {
   .sponsor-page .partner-piece {
     margin: 0px; }

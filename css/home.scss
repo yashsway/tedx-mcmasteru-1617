@@ -4,7 +4,6 @@ body {
     background-size: cover;
 }
 
-
 /* Landing page */
 
 .landing-page {
@@ -114,9 +113,6 @@ body {
     .piece {
         overflow: hidden;
         margin: 50px 0px;
-        .tertiary-title {
-            color: $official-primary-color;
-        }
     }
     .summary-piece {
         h1 {
@@ -170,26 +166,34 @@ body {
             }
             &.small {
                 height: 85px;
+                padding: 0px;
                 img {
                     height: 70px;
+                    padding: 5px;
                 }
             }
             &.medium {
                 height: 150px;
+                padding: 0px;
                 img {
                     height: 140px;
+                    padding: 5px;
                 }
             }
             &.large {
                 height: 200px;
+                padding: 0px;
                 img {
                     height: 190px;
+                    padding: 5px;
                 }
             }
             &.xlarge {
                 height: 250px;
+                padding: 0px;
                 img {
                     height: 240px;
+                    padding: 5px;
                 }
             }
         }

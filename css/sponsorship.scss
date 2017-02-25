@@ -4,11 +4,6 @@ body {
     background-size: cover;
 }
 
-.dropdown {
-    position: fixed;
-    z-index: 10;
-}
-
 .sponsor-page {
     .header {
         .icon {
@@ -82,26 +77,34 @@ body {
             }
             &.small {
                 height: 85px;
+                padding: 0px;
                 img {
                     height: 70px;
+                    padding: 5px;
                 }
             }
             &.medium {
                 height: 150px;
+                padding: 0px;
                 img {
                     height: 140px;
+                    padding: 5px;
                 }
             }
             &.large {
                 height: 200px;
+                padding: 0px;
                 img {
                     height: 190px;
+                    padding: 5px;
                 }
             }
             &.xlarge {
                 height: 250px;
+                padding: 0px;
                 img {
                     height: 240px;
+                    padding: 5px;
                 }
             }
         }

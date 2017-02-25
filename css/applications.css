@@ -117,7 +117,7 @@ body {
   font-weight: 600; }
 
 .tertiary-title {
-  color: #312C35;
+  color: #E62B1E;
   font-size: 2.50em;
   line-height: 1.2; }
 
@@ -142,7 +142,7 @@ body {
   font-size: 1em;
   color: #171519;
   letter-spacing: 0px;
-  line-height: 22px; }
+  line-height: 25px; }
 
 .detail {
   font-size: 0.8em; }
@@ -499,6 +499,10 @@ FOUNDATION FIXES
 .turntable ul li.active {
   display: block; }
 
+.dropdown {
+  position: fixed;
+  z-index: 10; }
+
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -552,10 +556,6 @@ FOUNDATION FIXES
 body {
   background: url(../assets/partner.svg) no-repeat top left;
   background-size: cover; }
-
-.dropdown {
-  position: fixed;
-  z-index: 10; }
 
 .header .icon {
   font-size: 50px;
