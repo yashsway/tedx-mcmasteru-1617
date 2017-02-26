@@ -629,6 +629,10 @@ body {
     .sponsor-page .partner-piece .card.xlarge img {
       height: 240px;
       padding: 5px; }
+      @media screen and (max-width: 48em) {
+        .sponsor-page .partner-piece .card.xlarge img {
+          margin-top: 25%;
+          height: 100px; } }
 @media screen and (max-width: 48em) {
   .sponsor-page .partner-piece {
     margin: 0px; }

@@ -199,6 +199,10 @@ body {
                 img {
                     height: 240px;
                     padding: 5px;
+                    @include small-only {
+                        margin-top: 25%;
+                        height: 100px;
+                    }
                 }
             }
         }
