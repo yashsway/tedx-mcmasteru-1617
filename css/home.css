@@ -660,6 +660,10 @@ body {
     order: 1; }
   .intro-page .history-piece .conference div:nth-child(2) {
     order: 2; }
+  .intro-page .venue-piece .button-secondary {
+    width: auto;
+    padding: 30px;
+    font-size: 1.2em; }
   .intro-page .partner-piece img {
     min-height: 75px; }
   .intro-page .partner-piece .card {
