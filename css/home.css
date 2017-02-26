@@ -79,7 +79,7 @@ textarea {
 
 /* Default typography
 --------------------- */
-.primary-text-color, .intro-page .summary-piece h1 {
+.primary-text-color {
   color: #E62B1E; }
 
 .secondary-text-color {
@@ -258,7 +258,7 @@ footer {
   background: url(../assets/footer.svg) no-repeat top left;
   background-size: cover; }
   .section-footer .detail {
-    padding: 10px 0px 0px 20px; }
+    padding: 10px 0px 15px 20px; }
   .section-footer .logo {
     max-height: 150px;
     width: auto;
@@ -583,6 +583,8 @@ body {
 
 .landing-page-box {
   height: inherit; }
+  .landing-page-box .disclaimer {
+    padding-bottom: 15px; }
 
 /* Blinking Cursor */
 .typed-cursor {
@@ -640,6 +642,8 @@ body {
     margin: 50px 0px; }
   .intro-page .summary-piece h1 {
     padding: 0px; }
+  .intro-page .summary-piece .button, .intro-page .summary-piece .button-secondary {
+    margin-right: 10px; }
   .intro-page .history-piece .card {
     height: 200px;
     width: 200px;

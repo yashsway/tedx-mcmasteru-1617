@@ -1,6 +1,9 @@
 @import 'base.scss';
 @import "bourbon/bourbon";
-
+body {
+    background: url(../assets/theme.svg) no-repeat top left;
+    background-size: cover;
+}
 .header {
     .icon {
         font-size: 50px;

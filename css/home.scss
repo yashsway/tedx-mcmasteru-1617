@@ -34,6 +34,9 @@ body {
 
 .landing-page-box {
     height: inherit;
+    .disclaimer {
+        padding-bottom: 15px;
+    }
 }
 
 
@@ -116,8 +119,10 @@ body {
     }
     .summary-piece {
         h1 {
-            @extend .primary-text-color;
             padding: 0px;
+        }
+        .button {
+            margin-right: 10px;
         }
     }
     .history-piece {

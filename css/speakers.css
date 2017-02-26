@@ -258,7 +258,7 @@ footer {
   background: url(../assets/footer.svg) no-repeat top left;
   background-size: cover; }
   .section-footer .detail {
-    padding: 10px 0px 0px 20px; }
+    padding: 10px 0px 15px 20px; }
   .section-footer .logo {
     max-height: 150px;
     width: auto;
@@ -554,7 +554,7 @@ FOUNDATION FIXES
   h3 {
     page-break-after: avoid; } }
 body {
-  background: url(../assets/contact.svg) no-repeat top left;
+  background: url(../assets/contact.svg) repeat-y top left;
   background-size: cover; }
 
 .mc-piece a {
