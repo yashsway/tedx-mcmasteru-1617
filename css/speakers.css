@@ -563,9 +563,11 @@ body {
 .speaker-piece .row {
   justify-content: space-between; }
 .speaker-piece .box {
-  flex: 0 3 auto; }
+  flex: 0 3 auto;
+  align-self: center; }
   .speaker-piece .box .body-text {
-    max-width: 450px; }
+    max-width: 450px;
+    text-align: justify; }
     .speaker-piece .box .body-text::first-letter {
       font-weight: 700;
       font-size: 1.2em; }
@@ -573,3 +575,5 @@ body {
   width: 350px;
   height: auto;
   padding: 0px; }
+.speaker-piece .card {
+  margin: 15px 0px; }
