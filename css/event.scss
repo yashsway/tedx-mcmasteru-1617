@@ -15,6 +15,11 @@ body {
     }
 }
 .event-page {
+    .description-text {
+        a {
+            border-bottom: 3px solid $primary-color;
+        }
+    }
     .button a {
         padding: 15px;
     }

@@ -356,8 +356,9 @@ table {
   border-radius: 5px;
   color: white;
   padding: 5px;
-  margin: 10px 0px 10px 10px;
-  vertical-align: top; }
+  margin: 10px 0px 10px 0px;
+  vertical-align: top;
+  width: auto; }
 
 /* START OF MENU STUFF */
 /* The container <div> - needed to position the dropdown content */
@@ -564,6 +565,8 @@ body {
   margin-top: 20px;
   margin-bottom: 25px; }
 
+.event-page .description-text a {
+  border-bottom: 3px solid #E56B62; }
 .event-page .button a, .event-page .button-secondary a {
   padding: 15px; }
 .event-page .piece {

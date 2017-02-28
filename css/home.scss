@@ -151,10 +151,20 @@ body {
         }
     }
     .venue-piece {
+
         .button-secondary {
-            width: auto;
-            padding: 30px;
-            font-size: 1.2em;
+            & > a {
+                width: auto;
+                padding: 30px;
+                font-size: 2em;
+            }
+        }
+        #transit-heading {
+            text-align:center;
+        }
+        #transit {
+            width: 100px;
+            height: auto;
         }
     }
     .partner-piece {
@@ -227,6 +237,9 @@ body {
         .box {
             flex: 0 3 auto;
             text-align: center;
+            .tertiary-title {
+                margin-right: 10px;
+            }
         }
         img {
             width: 350px;
