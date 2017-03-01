@@ -618,12 +618,20 @@ body {
     .sponsor-page .partner-piece .card.medium img {
       height: 140px;
       padding: 5px; }
+      @media screen and (max-width: 48em) {
+        .sponsor-page .partner-piece .card.medium img {
+          margin-top: 15%;
+          height: 110px; } }
   .sponsor-page .partner-piece .card.large {
     height: 200px;
     padding: 0px; }
     .sponsor-page .partner-piece .card.large img {
       height: 190px;
       padding: 5px; }
+      @media screen and (max-width: 48em) {
+        .sponsor-page .partner-piece .card.large img {
+          margin-top: 15%;
+          height: 115px; } }
   .sponsor-page .partner-piece .card.xlarge {
     height: 250px;
     padding: 0px; }
@@ -632,8 +640,8 @@ body {
       padding: 5px; }
       @media screen and (max-width: 48em) {
         .sponsor-page .partner-piece .card.xlarge img {
-          margin-top: 25%;
-          height: 100px; } }
+          margin-top: 20%;
+          height: 120px; } }
 @media screen and (max-width: 48em) {
   .sponsor-page .partner-piece {
     margin: 0px; }

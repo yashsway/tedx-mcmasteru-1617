@@ -20,8 +20,11 @@ body {
             border-bottom: 3px solid $primary-color;
         }
     }
-    .button a {
-        padding: 15px;
+    .button {
+        margin-right: 10px;
+        a {
+            padding: 15px;
+        }
     }
     .piece {
         padding: 20px 20px;

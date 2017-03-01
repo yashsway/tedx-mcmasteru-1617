@@ -200,6 +200,10 @@ body {
                 img {
                     height: 140px;
                     padding: 5px;
+                    @include small-only {
+                        margin-top: 15%;
+                        height: 110px;
+                    }
                 }
             }
             &.large {
@@ -208,6 +212,10 @@ body {
                 img {
                     height: 190px;
                     padding: 5px;
+                    @include small-only {
+                        margin-top: 15%;
+                        height: 115px;
+                    }
                 }
             }
             &.xlarge {
@@ -217,8 +225,8 @@ body {
                     height: 240px;
                     padding: 5px;
                     @include small-only {
-                        margin-top: 25%;
-                        height: 100px;
+                        margin-top: 20%;
+                        height: 120px;
                     }
                 }
             }

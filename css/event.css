@@ -567,8 +567,10 @@ body {
 
 .event-page .description-text a {
   border-bottom: 3px solid #E56B62; }
-.event-page .button a, .event-page .button-secondary a {
-  padding: 15px; }
+.event-page .button, .event-page .button-secondary {
+  margin-right: 10px; }
+  .event-page .button a, .event-page .button-secondary a {
+    padding: 15px; }
 .event-page .piece {
   padding: 20px 20px; }
 .event-page .tertiary-title {
