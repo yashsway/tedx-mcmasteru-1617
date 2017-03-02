@@ -558,6 +558,12 @@ body {
   background: url(../assets/contact.svg) repeat-y top left;
   background-size: cover; }
 
+.mic {
+  margin: 0;
+  padding: 0; }
+  .mic img {
+    height: 175px; }
+
 .mc-piece a {
   border-bottom: 2px solid #E62B1E; }
 

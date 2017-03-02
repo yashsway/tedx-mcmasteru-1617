@@ -564,3 +564,7 @@ table {
 
 .detail-piece .button, .detail-piece .button-secondary {
   margin-right: 15px; }
+
+label {
+  margin: 0;
+  vertical-align: top; }
