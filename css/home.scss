@@ -138,6 +138,13 @@ body {
                 max-width: 150px;
             }
         }
+        .link {
+            transition: background-color 0.5s ease-out;
+            cursor: pointer;
+            &:hover {
+                background-color: $primary-alt-1-color;
+            }
+        }
         .conference {
             div {
                 padding: 0px 5px;
