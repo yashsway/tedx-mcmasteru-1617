@@ -564,7 +564,8 @@ FOUNDATION FIXES
 
 table, .twitter-timeline {
   opacity: 0.8;
-  border: none; }
+  border: none;
+  height: 100% !important; }
 
 .done {
   background-color: #000000 !important;
