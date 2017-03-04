@@ -1,15 +1,7 @@
-"use strict";
+'use strict';
 
 //$(document).foundation();
 $(document).ready(function () {
-    $("#typing").typed({
-        strings: ["Discovery.", "Creativity.", "Optimism.", "TEDx McMaster U"],
-        typeSpeed: 50,
-        backSpeed: 10,
-        loop: false,
-        backDelay: 1500,
-        showCursor: true
-    });
     //file:///users/yash/Documents/Coding/Work/TedX/staticSite/assets/particles.json
     particlesJS.load('particles-js', 'assets/particles.json', function () {
         console.log('callback - particles.js config loaded');
@@ -91,5 +83,15 @@ $(document).ready(function () {
     }
 });
 $(window).on('load', function () {
+    //Hide loader CSS anim
     $("#loader").hide();
+    //Start typing
+    $("#typing").typed({
+        strings: ["Discovery.", "Confidence.", "Optimism.", "TEDx McMaster U"],
+        typeSpeed: 50,
+        backSpeed: 10,
+        loop: false,
+        backDelay: 1500,
+        showCursor: true
+    });
 });

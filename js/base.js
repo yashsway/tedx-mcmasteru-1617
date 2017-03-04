@@ -6,7 +6,7 @@ $(document).ready(function () {
         minimum: 500,
         maximum: 1200,
         minFont: 7,
-        maxFont: 25,
+        maxFont: 15,
         fontRatio: 45
     });
     //Main Menu functionality
