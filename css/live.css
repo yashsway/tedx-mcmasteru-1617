@@ -573,11 +573,11 @@ table, .twitter-timeline {
 
 .current {
   background-color: #E56B62 !important;
-  -webkit-animation: flash 5s infinite;
+  -webkit-animation: flash 1s infinite;
   /* Safari 4+ */
-  -moz-animation: flash 5s infinite;
+  -moz-animation: flash 1s infinite;
   /* Fx 5+ */
-  -o-animation: flash 5s infinite;
+  -o-animation: flash 1s infinite;
   /* Opera 12+ */
   animation: flash 1s infinite;
   animation-direction: alternate;
