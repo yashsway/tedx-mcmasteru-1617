@@ -642,7 +642,8 @@ body {
     overflow: hidden;
     margin: 50px 0px; }
   .intro-page .credit-piece {
-    height: 65vh;
+    padding: 100px;
+    height: 90vh;
     align-content: center; }
     .intro-page .credit-piece a {
       border-bottom: 3px solid #E56B62; }
