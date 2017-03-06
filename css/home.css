@@ -641,6 +641,11 @@ body {
   .intro-page .piece {
     overflow: hidden;
     margin: 50px 0px; }
+  .intro-page .credit-piece {
+    height: 65vh;
+    align-content: center; }
+    .intro-page .credit-piece a {
+      border-bottom: 3px solid #E56B62; }
   .intro-page .summary-piece h1 {
     padding: 0px; }
   .intro-page .summary-piece .button, .intro-page .summary-piece .button-secondary {

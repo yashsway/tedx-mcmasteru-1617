@@ -117,6 +117,13 @@ body {
         overflow: hidden;
         margin: 50px 0px;
     }
+    .credit-piece {
+        height: 65vh;
+        align-content: center;
+        a {
+            border-bottom: 3px solid $primary-color;
+        }
+    }
     .summary-piece {
         h1 {
             padding: 0px;
